@@ -16,7 +16,7 @@ When the robot starts, the camera is set up to deliver 30 frames per second, in 
 
 Figure \ref{fig:camera_1} shows two raw images of the line, captured by the camera. Later in this chapter, we will shows how the image extracts the line, and calculates the error signal.
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
 	\centering
 	\subfloat[Straight line]{%
 		\includegraphics[width=0.4\textwidth]{resources/img-straight}
@@ -74,7 +74,7 @@ In the system the possibility of changing the brightness and contrast are availa
 
 Due to huge changes in the illumination of the image, it is split into five horizontal slices. For each of these slices a histogram is calculated, and a thresholding value is found. By doing this instead of one thresholding value for the whole image, we obtain a much better thresholding. 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.4\textwidth]{resources/img-line-straight-raw-sliced}
 	\caption{Raw image with slices marked}
@@ -90,7 +90,7 @@ Due to huge changes in the illumination of the image, it is split into five hori
 
 Whenever the images are sliced into slices, a histogram for each slice is calculated. A histogram shows the distribution of pixels of different color values. The typical histogram of a gray-scale image shows the color values on the x-axis $[0-255]$, and the percentage of the given color on the y-axis $[0-1]$. The value 0 on the x-axis is the black colors, whereas the value 255 is the white colors. With this in mind, we can conclude that the first hill on the histogram is the line, centered around 50, and the second hill is the floor, centered around 135.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{resources/hist-no-filter}
 	\caption{Histogram without filtered}
@@ -99,7 +99,7 @@ Whenever the images are sliced into slices, a histogram for each slice is calcul
 
 Figure \ref{fig:camera_3} shows the histogram of a slice from the image in figure \ref{fig:camera_2}. A lot of noise is visible on the histogram, which makes calculating the correct thresholding point less accurate. Hence, the histogram is filtered by a 16-point/length moving average filter, which gives the histogram shown in figure \ref{fig:camera_4}.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{resources/hist-filter}
 	\caption{Histogram filtered with 16-point average filter}
@@ -131,7 +131,7 @@ Figure \ref{fig:camera_5} shows the histogram zoomed in around the first valley 
 
 Listing \ref{lst:camera_1} shows part of the implementation of optimum thresholding from image.c. In the while-loop from line 1-9, the histogram is iterated through, and a flag is set when equation \ref{eq:camera_1} is fulfilled.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{resources/hist-zoom-valley}
 	\caption{Histogram zoomed in before the `floor` hill}
@@ -173,7 +173,7 @@ Line 10-13 of listing \ref{lst:camera_1} loops through all pixels, and decides i
 
 As we can see on figure \ref{fig:camera_6_2}, it has not been possible to find a optimal thresholding value, probably due to a too low contrast caused by sun light. In the right side of the image, only the edge of the line is marked as line. 
 
-\begin{figure}[!t]
+\begin{figure}[!ht]
 	\centering
 	\subfloat[Straight line]{%
 		\includegraphics[width=0.3\textwidth]{resources/img-straight-thr}
@@ -208,7 +208,7 @@ In mathematical terms, the center of mass $(x_c, y_c)$ is defined as given in eq
 
 Using the equation for center of mass, two error points are calculated for each image. One for the upper part of the image, which gives an indication of the error in the `future`, and an error point in the lower part of the image, which gives the actual present error. Figure \ref{fig:camera_7} shows the two images annotated with error points. The green line indicates the optimal direction of motion.
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
 	\centering
 	\subfloat[Straight line]{%
 		\includegraphics[width=0.4\textwidth]{resources/img-straight-thr-pt}

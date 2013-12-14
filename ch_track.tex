@@ -1,9 +1,67 @@
 \chapter{Following The Track}
-\label{chap:track}
+\label{chap:track} 
 
 \section{Requirements for the track}
 Line, going straight forward, precise turns (position control), measuring distance to the wall in the front, measuring distance in the side
 
 \subsection{State machine}
-Go to line, follow line until crossing, turn towards the wall, go straight until the robot are 20 cm from the wall, turn 135 deg, go straight until the line is visible again, follow the line until a tape marking, follow the line with higher speed, stop af next tape crossing, go to the wall and stop 20 cm from it, turn 90 deg follow the wall... 
+An mentioned earlier in the report, a central state machine implemented in the Raspberry Pi, is responsible for keeping track of the overall state when completing the track. Below is a detailed explanation of each state in the state machine. Chapter \ref{ch:motors} discussed the internal states used by the motor controller, hence it is not discussed here.
+
+\begin{itemize}
+	\begin{item}
+		\textbf{START} \\ Drive straight forward, next state set to GOTO LINE
+	\end{item}
+
+	\begin{item}
+		\textbf{GOTO LINE} \\ Continue forward. If line is visible, rotate 45 degrees to left, and begin following the line by going into FOLLOW LINE state. 
+	\end{item}
+
+	\begin{item}
+		\textbf{FOLLOW LINE} \\ Follow the line until a crossing is captured. Then brake, and go into GOTO WALL mode. 
+	\end{item}
+
+	\begin{item}
+		\textbf{GOTO WALL} \\ Rotate 90 degrees to the left. Drive forward, and stop 20 cm from the wall. Rotate 135 degrees. Drive forward, and wait a while for the camera to become stable after turning against the sun light. When the line is visible, go to FOLLOW LINE AFTER WALL state \\ 
+	\end{item}
+
+	\begin{item}
+		\textbf{FOLLOW LINE AFTER WALL} \\ Follow the line, this time a bit faster. When an intersection is visible, go to FOLLOW LINE SPEEDY state.
+	\end{item}
+
+	\begin{item}
+		\textbf{FOLLOW LINE SPEEDY} \\ Follow the line at fastest possible speed. When the end of line is seen, brake down and go to END OF LINE state.
+	\end{item}
+
+	\begin{item}
+		\textbf{END OF LINE} \\ Wait for three seconds, and then go to STICK TO WALL state.
+	\end{item}
+
+	\begin{item}
+		\textbf{STICK TO WALL} \\ Drive straight forward, and stop 20 cm from the wall. Rotate 90 degrees to the right, and begin driving forward. Go to STRAIGHT UNTIL WALL DISAPPEARS state.
+	\end{item}
+
+	\begin{item}
+		\textbf{STRAIGHT UNTIL WALL DISAPPEARS} \\ Continue forward until the wall on the left side, is farther away than 20 cm. Brake down and rotate 90 degrees to the left. Continue forward for a while and then go to STRAIGHT UNTIL WALL DISAPPEARS 2 state.
+	\end{item}
+
+	\begin{item}
+		\textbf{STRAIGHT UNTIL WALL DISAPPEARS 2} \\ Continue forward until the wall on the left side, is farther away than 20 cm. Brake down and rotate 90 degrees to the left. Continue forward for a while and then go to FOLLOW WALL 1 state.
+	\end{item}
+
+	\begin{item}
+		\textbf{FOLLOW WALL 1} \\ Follow the wall on the left side. Brake down when the wall in front is less than 20 cm away. Brake down and rotate 90 degrees to the right. Go to FOLLOW WALL 2 state.
+	\end{item}
+
+	\begin{item}
+		\textbf{FOLLOW WALL 2} \\ Follow the wall on the left side. When the wall in front is less than 20 cm away, stop and go to TRACK COMPLETE state.
+	\end{item}
+
+	\begin{item}
+		\textbf{TRACK COMPLETE} \\ Track is completed! Flash the LEDs and beep the buzzer!
+	\end{item}
+
+\end{itemize}
+
+
+%Go to line, follow line until crossing, turn towards the wall, go straight until the robot are 20 cm from the wall, turn 135 deg, go straight until the line is visible again, follow the line until a tape marking, follow the line with higher speed, stop af next tape crossing, go to the wall and stop 20 cm from it, turn 90 deg follow the wall... 
 

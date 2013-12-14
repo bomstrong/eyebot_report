@@ -1,9 +1,19 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Friesel(2010{\natexlab{a}})]{friesel_note7}
+Anna Friesel.
+\newblock Note 7 - {PID} {C}ontroller.
+\newblock \emph{IHK}, 2010{\natexlab{a}}.
+
+\bibitem[Friesel(2010{\natexlab{b}})]{friesel_note9}
+Anna Friesel.
+\newblock Note 9 - {D}iscrete {PID}.
+\newblock \emph{IHK}, 2010{\natexlab{b}}.
 
 \bibitem[Moeslund(2009)]{moeslund2009}
 Thomas~B. Moeslund.
@@ -14,5 +24,10 @@ Thomas~B. Moeslund.
 Harley~R. Myler and Arthur~R. Weeks.
 \newblock \emph{The Pocket Handbook of Image Processing Algorithms in C}.
 \newblock Prentice Hall, 1993.
+
+\bibitem[Nise(2011)]{nise2011}
+Norman~S. Nise.
+\newblock \emph{Control Systems Engineering}.
+\newblock John Wiley \& Sons, Inc., 2011.
 
 \end{thebibliography}

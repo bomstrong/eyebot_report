@@ -17,7 +17,7 @@ TODO More attention to traffic accidents, traffic flow and congestion.
 
 The robot consist of several subsystems, which have different responsibilities. The block diagram in figure \ref{fig:intro_1}, outlines the basic components of the system with connections betweens them. 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\includegraphics[width=1\textwidth]{resources/Blockdiagram}
 	\caption{Block diagram of the subsystems}
@@ -46,26 +46,26 @@ such as slowing down.
 
 \subsection{Formal requirements}
 \begin{enumerate}
-\item The robot should be able to follow the track on first floor. This includes 
-\begin{itemize}
-\item Make a decision on which way to turn when seeing the line first time
-\item When a short peace of tape intersects the line, the robot should turn 90 degrees to the left
-and drive towards the wall. It should stop 20 centimeters from the wall, turn 180 degrees
-(TBC) and go back and follow the line as usual.
-\item When a short line is sensed on the left side of the line, the robot should speed up, and try to go as fast as possible for the rest of the track.
-\item At the end of the track, the robot should drive to the wall, keeping a distance of 20
-centimeters to the wall, and then follow the wall to the end of the track.
-\end{itemize}
-\item The robot should be able to drive at a maximum speed of 1 m/s (TBC).
-\item The robot should make corrections every 0.1 m (TBC), which is every 100 ms (TBC) at 1 m/s.
-\item The line should be sensed using a camera and image processing (TBC).
-\item A Raspberry PI should be the main controller in the system.
-\item The Raspberry PI should capture images of the floor, analyse the image, and calculate the error.
-\item The motors should be controlled by an AVR microcontroller, that interfaces the Raspberry PI
-using I2C (TWI).
-\item The speed of the motors should be controlled using PWM signals through a H-bridge.
-\item The distance to the wall should be measured using a distance sensor in the front, and one or more on the
-left side of the robot.
+	\item The robot should be able to follow the track on first floor. This includes 
+	\begin{itemize}
+		\item Make a decision on which way to turn when seeing the line first time
+		\item When a short peace of tape intersects the line, the robot should turn 90 degrees to the left
+		and drive towards the wall. It should stop 20 centimeters from the wall, turn 180 degrees
+		(TBC) and go back and follow the line as usual.
+		\item When a short line is sensed on the left side of the line, the robot should speed up, and try to go as fast as possible for the rest of the track.
+		\item At the end of the track, the robot should drive to the wall, keeping a distance of 20
+		centimeters to the wall, and then follow the wall to the end of the track.
+	\end{itemize}
+	\item The robot should be able to drive at a maximum speed of 1 m/s (TBC).
+	\item The robot should make corrections every 0.1 m (TBC), which is every 100 ms (TBC) at 1 m/s.
+	\item The line should be sensed using a camera and image processing (TBC).
+	\item A Raspberry PI should be the main controller in the system.
+	\item The Raspberry PI should capture images of the floor, analyse the image, and calculate the error.
+	\item The motors should be controlled by an AVR microcontroller, that interfaces the Raspberry PI
+	using I2C (TWI).
+	\item The speed of the motors should be controlled using PWM signals through a H-bridge.
+	\item The distance to the wall should be measured using a distance sensor in the front, and one or more on the
+	left side of the robot.
 \end{enumerate}
 
 
