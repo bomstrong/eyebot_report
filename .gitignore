@@ -1,0 +1,11 @@
+
+eyebot_jp.pdf
+eyebot_adbc.pdf
+
+*.log
+*.idx
+*.out
+*.nlo
+*.aux
+*.toc
+*.synctex.gz
