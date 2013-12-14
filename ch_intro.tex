@@ -9,24 +9,31 @@ This paper outlines the work done, and shows how a camera can be used instead of
 Our robot may in the following chapters be referred to as `the robot`, `the system` or simply `Eyebot`.
 TODO More attention to traffic accidents, traffic flow and congestion.
 
+%
+%
+%
+%
 \section{Subsystems and Block Diagram}
 
 The robot consist of several subsystems, which have different responsibilities. The block diagram in figure \ref{fig:intro_1}, outlines the basic components of the system with connections betweens them. 
 
-As seen on the block diagram, the main processor of the system is an ARM-based Raspberry Pi computer. The Raspberry Pi first of all acts as the overall state machine when driving the track. It knows when to follow the line, go to the wall, rotate and so on (more on that in chapter \ref{chap:track}). Moreover the Raspberry Pi takes care of capturing images from the camera, processing the images, and calculating the error signals when following the line. As an additional feature, the live image data when following the line, are transmitted over WiFi to a laptop, for live preview of the robot's processed and annotated image. The image capture and processing is discussed in detail in chapter \ref{chap:camera}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{resources/Blockdiagram}
+	\caption{Block diagram of the subsystems}
+	\label{fig:intro_1}
+\end{figure}
+
+As seen on the block diagram, the main processor of the system is an ARM-based Raspberry Pi computer. The Raspberry Pi first of all acts as the overall state machine when driving the track. It knows when to follow the line, go to the wall, rotate and so on (more on that in chapter \ref{chap:track}). Moreover the Raspberry Pi takes care of capturing images from the camera, processing the images, and calculating the error signals when following the line. As an additional feature, the live image data when following the line, are transmitted over WiFi to a laptop, for live preview of the robot's processed and annotated image. The image capture and processing is discussed in detail in chapter \ref{chap:camera}. 
 
 Below the Raspberry Pi, an Atmel XMEGA192C micro-controller is responsible for powering and controlling the motors. The XMEGA is instructed directly by the Raspberry Pi, by commands received over the I2C (Two Wire Interface) bus. Equally important the XMEGA reads analog signals from the three distance sensors, and makes them available for the Raspberry Pi through the I2C bus. The motor-controller is discussed in chapter \ref{chap:motors} and the distance sensors are discussed in chapter \ref{chap:wall_dist}.
 
-As an additional feature, the robot has an array of LEDs mounted on its bumper, and a buzzer for indicating state changes. Those are powered by an MCP23016 I/O expander chip, that communicates with the Raspberry Pi using I2C. Tis subject will not receive any more attention in the report than this.
+As an additional feature, the robot has an array of LEDs mounted on its bumper, and a buzzer for indicating state changes. Those are powered by an MCP23016 I/O expander chip, that communicates with the Raspberry Pi using I2C. This subject will not receive any more attention in the report than this.
 
-
-\section{Requirements Specification}
-Autonomous robots are robotic devices capable of performing tasks based on inputs from various types of sensors, without human interaction. Much research in the recent years has focused on the development of autonomous cars (also known as Unmanned Automobiles) which can drive without interaction from the driver, but just by sensing the environment. This is an interresting field, as it may lower the number of traffic accidents and especially reduce the traffic congestion in bigger cities by providing a better traffic flow.
-
-In this present project we designed and constructed an autonomous robot, capable of following a line by using a mixture of cameras and IR sensors for gathering input about the surroundings. Close attention was paid to the use of camera sensing and image processing for detecting and extracting the line. The traditional method has been to use an array of photo-sensors, but due to the low resolution, an alternative method is necessary for archiving a better stability.
-
-This paper outlines the work done, and shows how a camera can be used instead of a traditional array of photo sensors. Further more, as an addtional feature, it is explained how the live image data is streamed to a computer, for a live preview of what the `robot sees`.
-
+%
+%
+%
+%
 \section{Requirements Specification}
 \subsection{Assumptions}
 
