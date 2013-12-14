@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  14 DEC 2013 13:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  14 DEC 2013 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1665,10 +1665,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 23421 strings out of 493307
- 422744 string characters out of 6139904
+ 23422 strings out of 493307
+ 422757 string characters out of 6139904
  608356 words of memory out of 5000000
- 26213 multiletter control sequences out of 15000+600000
+ 26214 multiletter control sequences out of 15000+600000
  59252 words of font info for 174 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,12n,39p,769b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
