@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  14 DEC 2013 12:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  14 DEC 2013 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,18 +1495,14 @@ l.17
 
 LaTeX Warning: Reference `chap:motors' on page 2 undefined on input line 18.
 
-
-LaTeX Warning: Reference `chap:wall_dist' on page 2 undefined on input line 18.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \section
+l.30 \section
              {Requirements Specification} [2]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 31.
  [3]) (./ch_camera.tex [4]
 [5
 
@@ -1528,7 +1524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
 [7
 
-] <resources/motor_transfer_function.png, id=336, 531.9875pt x 427.5975pt>
+] <resources/motor_transfer_function.png, id=337, 531.9875pt x 427.5975pt>
 File: resources/motor_transfer_function.png Graphic file (type png)
 
 <use resources/motor_transfer_function.png>
@@ -1541,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 [8 <./resources/motor_transfer_function.png>] [9]
-<resources/Scop/PWM_motot_right_PWMin25.png, id=350, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin25.png, id=351, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin25.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin25.png>
@@ -1549,7 +1545,7 @@ Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin25.png used on inp
 ut line 74.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
 
-<resources/Scop/PWM_motot_right_PWMin50.png, id=352, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin50.png, id=353, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin50.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin50.png>
@@ -1558,7 +1554,7 @@ ut line 81.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
  [10 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot
 _right_PWMin50.png>]
-<resources/H-bridge_diagram.png, id=361, 503.8825pt x 286.06876pt>
+<resources/H-bridge_diagram.png, id=362, 503.8825pt x 286.06876pt>
 File: resources/H-bridge_diagram.png Graphic file (type png)
 
 <use resources/H-bridge_diagram.png>
@@ -1569,21 +1565,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<resources/H-bridge_table.png, id=362, 353.32pt x 164.615pt>
+<resources/H-bridge_table.png, id=363, 353.32pt x 164.615pt>
 File: resources/H-bridge_table.png Graphic file (type png)
 
 <use resources/H-bridge_table.png>
 Package pdftex.def Info: resources/H-bridge_table.png used on input line 102.
 (pdftex.def)             Requested size: 255.6026pt x 119.08786pt.
  [11 <./resources/H-bridge_diagram.png> <./resources/H-bridge_table.png>]
-<resources/encoder_atmel.png, id=369, 487.8225pt x 291.0875pt>
+<resources/encoder_atmel.png, id=370, 487.8225pt x 291.0875pt>
 File: resources/encoder_atmel.png Graphic file (type png)
 
 <use resources/encoder_atmel.png>
 Package pdftex.def Info: resources/encoder_atmel.png used on input line 115.
-(pdftex.def)             Requested size: 255.6026pt x 152.52118pt.
+(pdftex.def)             Requested size: 298.1987pt x 177.94064pt.
 
-<resources/Scop/encoder.png, id=370, 803.0pt x 602.25pt>
+<resources/Scop/encoder.png, id=371, 803.0pt x 602.25pt>
 File: resources/Scop/encoder.png Graphic file (type png)
 
 <use resources/Scop/encoder.png>
@@ -1594,7 +1590,7 @@ Package pdftex.def Info: resources/Scop/encoder.png used on input line 123.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./resources/encoder_atmel.png>]
-<resources/feedbackloop.png, id=376, 406.51875pt x 106.3975pt>
+<resources/feedbackloop.png, id=377, 406.51875pt x 106.3975pt>
 File: resources/feedbackloop.png Graphic file (type png)
 
 <use resources/feedbackloop.png>
@@ -1602,14 +1598,14 @@ Package pdftex.def Info: resources/feedbackloop.png used on input line 139.
 (pdftex.def)             Requested size: 340.8013pt x 89.20119pt.
  [13 <./resources/Scop/encoder.png> <./resources/feedbackloop.png>]) (./ch_wall
 _dist.tex [14]
-<resources/irsensor.png, id=388, 401.5pt x 574.145pt>
+<resources/irsensor.png, id=389, 401.5pt x 574.145pt>
 File: resources/irsensor.png Graphic file (type png)
 
 <use resources/irsensor.png>
 Package pdftex.def Info: resources/irsensor.png used on input line 19.
 (pdftex.def)             Requested size: 63.8974pt x 91.3657pt.
 
-<resources/adcgraf.png, id=389, 1493.58pt x 840.13875pt>
+<resources/adcgraf.png, id=390, 1493.58pt x 840.13875pt>
 File: resources/adcgraf.png Graphic file (type png)
 
 <use resources/adcgraf.png>
@@ -1671,7 +1667,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
 Here is how much of TeX's memory you used:
  23421 strings out of 493307
  422744 string characters out of 6139904
- 608275 words of memory out of 5000000
+ 608356 words of memory out of 5000000
  26213 multiletter control sequences out of 15000+600000
  59252 words of font info for 174 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1686,10 +1682,10 @@ ublic/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
 plb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on eyebot_adbc.pdf (34 pages, 536530 bytes).
+Output written on eyebot_adbc.pdf (34 pages, 536540 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 458 compressed objects within 5 object streams
+ 524 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
  110 named destinations out of 1000 (max. 500000)
  27608 words of extra memory for PDF output out of 29859 (max. 10000000)
 
