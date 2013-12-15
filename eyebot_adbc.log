@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  14 DEC 2013 13:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  15 DEC 2013 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,10 +1040,49 @@ File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
 File: listings.cfg 2013/06/27 1.5pre1 listings configuration
 ))
 Package: listings 2013/07/10 1.5 (Carsten Heinz)
-\c@subfigure=\count285
-\cftbeforesubfigureskip=\skip272
-\cftsubfigureindent=\skip273
-\cftsubfigurenumwidth=\skip274
+
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use t
+he caption package interfaces in order to configure your captions. .
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen269
+\captionmargin@=\dimen270
+\captionwidth=\dimen271
+\caption@tempdima=\dimen272
+\caption@indent=\dimen273
+\caption@parindent=\dimen274
+\caption@hangindent=\dimen275
+)
+\c@ContinuedFloat=\count285
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count286
+\sf@farskip=\skip272
+\sf@captopadj=\dimen276
+\sf@capskip=\skip273
+\sf@nearskip=\skip274
+\c@subfigure=\count287
+\c@subfigure@save=\count288
+\c@subtable=\count289
+\c@subtable@save=\count290
+\sf@top=\skip275
+\sf@bottom=\skip276
+)
+
+Package subfig Warning: The subfigure type is already defined. on input line 29
+.
 
 
 ******************************************************
@@ -1067,19 +1106,19 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip275
-\bibsep=\skip276
+\bibhang=\skip277
+\bibsep=\skip278
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count286
+\c@NAT@ctr=\count291
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2013/07/12 v4544 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count287
-\l__xparse_m_args_int=\count288
-\l__xparse_mandatory_args_int=\count289
-\l__xparse_processor_int=\count290
-\l__xparse_v_nesting_int=\count291
+\l__xparse_current_arg_int=\count292
+\l__xparse_m_args_int=\count293
+\l__xparse_mandatory_args_int=\count294
+\l__xparse_processor_int=\count295
+\l__xparse_v_nesting_int=\count296
 )
 Package: siunitx 2013/07/11 v2.5r A comprehensive (SI) units package
 
@@ -1088,48 +1127,48 @@ Package: l3keys2e 2013/07/12 v4544 LaTeX2e option processing using LaTeX3 keys
 )
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box49
-\l__siunitx_tmp_dim=\dimen269
-\l__siunitx_tmp_int=\count292
+\l__siunitx_tmp_dim=\dimen277
+\l__siunitx_tmp_int=\count297
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
 Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count293
-\l__siunitx_number_uncert_length_int=\count294
-\l__siunitx_round_int=\count295
-\l__siunitx_process_decimal_int=\count296
-\l__siunitx_process_uncertainty_int=\count297
-\l__siunitx_process_fixed_int=\count298
-\l__siunitx_process_integer_min_int=\count299
-\l__siunitx_process_precision_int=\count300
-\l__siunitx_group_min_int=\count301
+\l__siunitx_number_mantissa_length_int=\count298
+\l__siunitx_number_uncert_length_int=\count299
+\l__siunitx_round_int=\count300
+\l__siunitx_process_decimal_int=\count301
+\l__siunitx_process_uncertainty_int=\count302
+\l__siunitx_process_fixed_int=\count303
+\l__siunitx_process_integer_min_int=\count304
+\l__siunitx_process_precision_int=\count305
+\l__siunitx_group_min_int=\count306
 \l__siunitx_angle_marker_box=\box50
 \l__siunitx_angle_unit_box=\box51
-\l__siunitx_angle_marker_dim=\dimen270
-\l__siunitx_angle_unit_dim=\dimen271
-\l__siunitx_unit_int=\count302
-\l__siunitx_unit_denominator_int=\count303
-\l__siunitx_unit_numerator_int=\count304
-\l__siunitx_unit_prefix_int=\count305
-\l__siunitx_unit_prefix_base_int=\count306
-\l__siunitx_unit_prefix_gram_int=\count307
-\l__siunitx_number_product_int=\count308
-\c__siunitx_one_fill_skip=\skip277
-\l__siunitx_table_unit_align_skip=\skip278
-\l__siunitx_table_exponent_dim=\dimen272
-\l__siunitx_table_integer_dim=\dimen273
-\l__siunitx_table_mantissa_dim=\dimen274
-\l__siunitx_table_marker_dim=\dimen275
-\l__siunitx_table_result_dim=\dimen276
-\l__siunitx_table_uncert_dim=\dimen277
-\l__siunitx_table_fill_pre_dim=\dimen278
-\l__siunitx_table_fill_post_dim=\dimen279
-\l__siunitx_table_fill_mid_dim=\dimen280
+\l__siunitx_angle_marker_dim=\dimen278
+\l__siunitx_angle_unit_dim=\dimen279
+\l__siunitx_unit_int=\count307
+\l__siunitx_unit_denominator_int=\count308
+\l__siunitx_unit_numerator_int=\count309
+\l__siunitx_unit_prefix_int=\count310
+\l__siunitx_unit_prefix_base_int=\count311
+\l__siunitx_unit_prefix_gram_int=\count312
+\l__siunitx_number_product_int=\count313
+\c__siunitx_one_fill_skip=\skip279
+\l__siunitx_table_unit_align_skip=\skip280
+\l__siunitx_table_exponent_dim=\dimen280
+\l__siunitx_table_integer_dim=\dimen281
+\l__siunitx_table_mantissa_dim=\dimen282
+\l__siunitx_table_marker_dim=\dimen283
+\l__siunitx_table_result_dim=\dimen284
+\l__siunitx_table_uncert_dim=\dimen285
+\l__siunitx_table_fill_pre_dim=\dimen286
+\l__siunitx_table_fill_post_dim=\dimen287
+\l__siunitx_table_fill_mid_dim=\dimen288
 \l__siunitx_table_pre_box=\box52
 \l__siunitx_table_post_box=\box53
 \l__siunitx_table_mantissa_box=\box54
 \l__siunitx_table_result_box=\box55
-\l__siunitx_table_number_align_skip=\skip279
-\l__siunitx_table_text_align_skip=\skip280
+\l__siunitx_table_number_align_skip=\skip281
+\l__siunitx_table_text_align_skip=\skip282
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1268,7 +1307,7 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
 .tex)))
-\c@theorem=\count309
+\c@theorem=\count314
 \eyebot_adbc@idxfile=\write6
 \openout6 = `eyebot_adbc.idx'.
 
@@ -1278,13 +1317,16 @@ Writing index file eyebot_adbc.idx
 \openout7 = `eyebot_adbc.nlo'.
 
 Writing nomenclature file eyebot_adbc.nlo
-\signlength=\skip281
+\signlength=\skip283
 ) (./eyebot_adbc.aux
 
 LaTeX Warning: Label `fig:2' multiply defined.
 
 
 LaTeX Warning: Label `fig:6' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
 
 
 LaTeX Warning: Label `fig:3' multiply defined.
@@ -1322,16 +1364,16 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen281
+\scratchcounter=\count315
+\scratchdimen=\dimen289
 \scratchbox=\box56
-\nofMPsegments=\count311
-\nofMParguments=\count312
+\nofMPsegments=\count316
+\nofMParguments=\count317
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen282
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen290
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1371,7 +1413,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count321
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1383,7 +1425,10 @@ LaTeX Info: Redefining \nameref on input line 9.
 \@outlinefile=\write8
 \openout8 = `eyebot_adbc.out'.
 
-\c@lstlisting=\count317
+\c@lstlisting=\count322
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1393,7 +1438,7 @@ Dictionary: translator-basic-dictionary, Language: English
 fg
 File: siunitx-abbreviations.cfg 2013/07/11 v2.5r siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count318
+\c__siunitx_mathsf_int=\count323
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
@@ -1426,7 +1471,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count319
+\c__siunitx_mathtt_int=\count324
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 9.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -1437,7 +1482,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./titlePage.tex
-<resources/tex_dtu_uk_a1_cmyk.pdf, id=213, 248.93pt x 58.2175pt>
+<resources/tex_dtu_uk_a1_cmyk.pdf, id=200, 248.93pt x 58.2175pt>
 File: resources/tex_dtu_uk_a1_cmyk.pdf Graphic file (type pdf)
 
 <use resources/tex_dtu_uk_a1_cmyk.pdf>
@@ -1478,53 +1523,181 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 No file eyebot_adbc.nls.
 [2] (./ch_intro.tex
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 16.
 
+<resources/Blockdiagram.png, id=276, 656.4525pt x 350.30875pt>
+File: resources/Blockdiagram.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:intro_1' on page 1 undefined on input line 14.
-
+<use resources/Blockdiagram.png>
+Package pdftex.def Info: resources/Blockdiagram.png used on input line 22.
+(pdftex.def)             Requested size: 426.0pt x 227.3345pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 
+l.28 
       [1
 
 
 ]
 
-LaTeX Warning: Reference `chap:motors' on page 2 undefined on input line 18.
+LaTeX Warning: Reference `chap:motors' on page 2 undefined on input line 29.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 38.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \section
-             {Requirements Specification} [2]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 31.
- [3]) (./ch_camera.tex [4]
-[5
+l.46 
+      [2 <./resources/Blockdiagram.png (PNG copy)>] [3]) (./ch_camera.tex
+[4] <resources/img-straight.png, id=306, 321.2pt x 240.9pt>
+File: resources/img-straight.png Graphic file (type png)
 
-]) (./ch_motors.tex
+<use resources/img-straight.png>
+Package pdftex.def Info: resources/img-straight.png used on input line 23.
+(pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
+
+<resources/img-intersection.png, id=307, 321.2pt x 240.9pt>
+File: resources/img-intersection.png Graphic file (type png)
+
+<use resources/img-intersection.png>
+Package pdftex.def Info: resources/img-intersection.png used on input line 26.
+(pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
+ [5
+
+]
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (22.76219pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1.
+(in both cases you will find help in the memoir manual). on input line 76.
 
 
 Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 
-[6]
+[6 <./resources/img-straight.png (PNG copy)> <./resources/img-intersection.png 
+(PNG copy)>]
+<resources/img-line-straight-raw-sliced.png, id=324, 321.2pt x 240.9pt>
+File: resources/img-line-straight-raw-sliced.png Graphic file (type png)
+
+<use resources/img-line-straight-raw-sliced.png>
+Package pdftex.def Info: resources/img-line-straight-raw-sliced.png used on inp
+ut line 79.
+(pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
+
+<resources/hist-no-filter.png, id=326, 481.8pt x 160.6pt>
+File: resources/hist-no-filter.png Graphic file (type png)
+
+<use resources/hist-no-filter.png>
+Package pdftex.def Info: resources/hist-no-filter.png used on input line 95.
+(pdftex.def)             Requested size: 340.8013pt x 113.60283pt.
+
+<resources/hist-filter.png, id=330, 481.8pt x 160.6pt>
+File: resources/hist-filter.png Graphic file (type png)
+
+<use resources/hist-filter.png>
+Package pdftex.def Info: resources/hist-filter.png used on input line 104.
+(pdftex.def)             Requested size: 340.8013pt x 113.60283pt.
+ [7 <./resources/img-line-straight-raw-sliced.png> <./resources/hist-no-filter.
+png (PNG copy)>]
+
+Package natbib Warning: Citation `myler1993' on page 8 undefined on input line 
+122.
+
+<resources/hist-zoom-valley.png, id=343, 481.8pt x 160.6pt>
+File: resources/hist-zoom-valley.png Graphic file (type png)
+
+<use resources/hist-zoom-valley.png>
+Package pdftex.def Info: resources/hist-zoom-valley.png used on input line 136.
+
+(pdftex.def)             Requested size: 340.8013pt x 113.60283pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/06/27 1.5pre1 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 144.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 145.
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 145.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 145.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 146.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
+
+Overfull \vbox (6.2378pt too high) has occurred while \output is active []
+
+
+[8 <./resources/hist-filter.png (PNG copy)>]
+<resources/img-straight-thr.png, id=358, 321.2pt x 240.9pt>
+File: resources/img-straight-thr.png Graphic file (type png)
+
+<use resources/img-straight-thr.png>
+Package pdftex.def Info: resources/img-straight-thr.png used on input line 180.
+
+(pdftex.def)             Requested size: 127.8013pt x 95.85101pt.
+
+<resources/img-intersection-thr.png, id=359, 321.2pt x 240.9pt>
+File: resources/img-intersection-thr.png Graphic file (type png)
+
+<use resources/img-intersection-thr.png>
+Package pdftex.def Info: resources/img-intersection-thr.png used on input line 
+183.
+(pdftex.def)             Requested size: 127.8013pt x 95.85101pt.
+
+
+Package natbib Warning: Citation `moeslund2009' on page 9 undefined on input li
+ne 198.
+
+[9 <./resources/hist-zoom-valley.png (PNG copy)>]
+<resources/img-straight-thr-pt.png, id=385, 321.2pt x 240.9pt>
+File: resources/img-straight-thr-pt.png Graphic file (type png)
+
+<use resources/img-straight-thr-pt.png>
+Package pdftex.def Info: resources/img-straight-thr-pt.png used on input line 2
+15.
+(pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
+
+<resources/img-intersection-thr-pt.png, id=386, 321.2pt x 240.9pt>
+File: resources/img-intersection-thr-pt.png Graphic file (type png)
+
+<use resources/img-intersection-thr-pt.png>
+Package pdftex.def Info: resources/img-intersection-thr-pt.png used on input li
+ne 218.
+(pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
+) (./ch_motors.tex
+Overfull \vbox (6.2378pt too high) has occurred while \output is active []
+
+
+[10 <./resources/img-straight-thr.png (PNG copy)> <./resources/img-intersection
+-thr.png (PNG copy)> <./resources/img-straight-thr-pt.png> <./resources/img-int
+ersection-thr-pt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-[7
+[11
 
-] <resources/motor_transfer_function.png, id=337, 531.9875pt x 427.5975pt>
+] <resources/motor_transfer_function.png, id=403, 531.9875pt x 427.5975pt>
 File: resources/motor_transfer_function.png Graphic file (type png)
 
 <use resources/motor_transfer_function.png>
@@ -1536,8 +1709,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[8 <./resources/motor_transfer_function.png>] [9]
-<resources/Scop/PWM_motot_right_PWMin25.png, id=351, 803.0pt x 602.25pt>
+[12 <./resources/motor_transfer_function.png>] [13]
+<resources/Scop/PWM_motot_right_PWMin25.png, id=416, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin25.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin25.png>
@@ -1545,16 +1718,16 @@ Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin25.png used on inp
 ut line 74.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
 
-<resources/Scop/PWM_motot_right_PWMin50.png, id=353, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin50.png, id=417, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin50.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin50.png>
 Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin50.png used on inp
 ut line 81.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
- [10 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot
+ [14 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot
 _right_PWMin50.png>]
-<resources/H-bridge_diagram.png, id=362, 503.8825pt x 286.06876pt>
+<resources/H-bridge_diagram.png, id=426, 503.8825pt x 286.06876pt>
 File: resources/H-bridge_diagram.png Graphic file (type png)
 
 <use resources/H-bridge_diagram.png>
@@ -1565,21 +1738,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<resources/H-bridge_table.png, id=363, 353.32pt x 164.615pt>
+<resources/H-bridge_table.png, id=427, 353.32pt x 164.615pt>
 File: resources/H-bridge_table.png Graphic file (type png)
 
 <use resources/H-bridge_table.png>
 Package pdftex.def Info: resources/H-bridge_table.png used on input line 102.
 (pdftex.def)             Requested size: 255.6026pt x 119.08786pt.
- [11 <./resources/H-bridge_diagram.png> <./resources/H-bridge_table.png>]
-<resources/encoder_atmel.png, id=370, 487.8225pt x 291.0875pt>
+ [15 <./resources/H-bridge_diagram.png> <./resources/H-bridge_table.png>]
+<resources/encoder_atmel.png, id=436, 487.8225pt x 291.0875pt>
 File: resources/encoder_atmel.png Graphic file (type png)
 
 <use resources/encoder_atmel.png>
 Package pdftex.def Info: resources/encoder_atmel.png used on input line 115.
 (pdftex.def)             Requested size: 298.1987pt x 177.94064pt.
 
-<resources/Scop/encoder.png, id=371, 803.0pt x 602.25pt>
+<resources/Scop/encoder.png, id=437, 803.0pt x 602.25pt>
 File: resources/Scop/encoder.png Graphic file (type png)
 
 <use resources/Scop/encoder.png>
@@ -1589,50 +1762,76 @@ Package pdftex.def Info: resources/Scop/encoder.png used on input line 123.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <./resources/encoder_atmel.png>]
-<resources/feedbackloop.png, id=377, 406.51875pt x 106.3975pt>
+[16 <./resources/encoder_atmel.png>]
+<resources/feedbackloop.png, id=443, 406.51875pt x 106.3975pt>
 File: resources/feedbackloop.png Graphic file (type png)
 
 <use resources/feedbackloop.png>
 Package pdftex.def Info: resources/feedbackloop.png used on input line 139.
 (pdftex.def)             Requested size: 340.8013pt x 89.20119pt.
- [13 <./resources/Scop/encoder.png> <./resources/feedbackloop.png>]) (./ch_wall
-_dist.tex [14]
-<resources/irsensor.png, id=389, 401.5pt x 574.145pt>
+ [17 <./resources/Scop/encoder.png> <./resources/feedbackloop.png>]) (./ch_wall
+_dist.tex [18]
+<resources/irsensor.png, id=455, 401.5pt x 574.145pt>
 File: resources/irsensor.png Graphic file (type png)
 
 <use resources/irsensor.png>
-Package pdftex.def Info: resources/irsensor.png used on input line 19.
+Package pdftex.def Info: resources/irsensor.png used on input line 8.
 (pdftex.def)             Requested size: 63.8974pt x 91.3657pt.
+ [19
 
-<resources/adcgraf.png, id=390, 1493.58pt x 840.13875pt>
+ <./resources/irsensor.png>]
+<resources/wall_robot.png, id=461, 423.5825pt x 520.94624pt>
+File: resources/wall_robot.png Graphic file (type png)
+
+<use resources/wall_robot.png>
+Package pdftex.def Info: resources/wall_robot.png used on input line 34.
+(pdftex.def)             Requested size: 170.3974pt x 209.5592pt.
+ [20 <./resources/wall_robot.png>]
+<resources/adcgraf.png, id=467, 1493.58pt x 840.13875pt>
 File: resources/adcgraf.png Graphic file (type png)
 
 <use resources/adcgraf.png>
-Package pdftex.def Info: resources/adcgraf.png used on input line 31.
-(pdftex.def)             Requested size: 383.3974pt x 215.66191pt.
- [15
+Package pdftex.def Info: resources/adcgraf.png used on input line 44.
+(pdftex.def)             Requested size: 340.8013pt x 191.70233pt.
+) (./ch_communication.tex [21 <./resources/adcgraf.png>] [22
 
- <./resources/irsensor.png>])
-(./ch_communication.tex [16 <./resources/adcgraf.png>]) (./ch_controller.tex
-[17
-
-] [18
-
-]) (./ch_track.tex [19] [20
-
-]) (./ch_simu.tex [21] [22
-
-]) [23] [24
+]) (./ch_controller.tex [23] [24
 
 ]
-[25] [26] (./appendix01.tex [27
+
+Package natbib Warning: Citation `nise2011' on page 25 undefined on input line 
+3.
+
+
+Package natbib Warning: Citation `friesel_note7' on page 25 undefined on input 
+line 3.
+
+
+Package natbib Warning: Citation `friesel_note9' on page 25 undefined on input 
+line 3.
+
+) (./ch_track.tex [25] [26
+
+]
+
+LaTeX Warning: Reference `ch:motors' on page 27 undefined on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[27]) (./ch_simu.tex [28]) [29
+
+] [30
+
+] [31] [32] (./appendix01.tex [33
 
 ])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-[29] [30]
+ [34]
+[35] [36]
 No file eyebot_adbc.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1641,6 +1840,9 @@ either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 59.
 
 runsystem(rm -- eyebot_adbc.oldaux)...disabled (restricted).
+
+
+Package natbib Warning: There were undefined citations.
 
 \tf@toc=\write9
 \openout9 = `eyebot_adbc.toc'.
@@ -1651,7 +1853,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `eyebot_adbc.out' has not changed.
-(rerunfilecheck)             Checksum: 69DB8CEE0A52D0EF660B9EB9E873D265;3366.
+(rerunfilecheck)             Checksum: C07E59F4E1BE4CE6B3ED10A7F6F1899B;3202.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1665,27 +1867,30 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 23422 strings out of 493307
- 422757 string characters out of 6139904
- 608356 words of memory out of 5000000
- 26214 multiletter control sequences out of 15000+600000
- 59252 words of font info for 174 fonts, out of 8000000 for 9000
+ 25170 strings out of 493307
+ 451464 string characters out of 6139904
+ 650292 words of memory out of 5000000
+ 27868 multiletter control sequences out of 15000+600000
+ 73720 words of font info for 207 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,12n,39p,769b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,17n,96p,953b,1537s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplm
-r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
-plb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on eyebot_adbc.pdf (34 pages, 536540 bytes).
+amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/palatino/uplri8a.pfb>
+Output written on eyebot_adbc.pdf (40 pages, 703407 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 27608 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 36348 words of extra memory for PDF output out of 42996 (max. 10000000)
 
