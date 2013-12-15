@@ -69,18 +69,18 @@ The frequency of the square has been chosen to be 20kHz so that is it over the h
 \\
 The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and the H-bridge. The duty cycle output of the MCU is about 15 $\%$ and 82$\%$ The reason for that is that the controller in the MCH manipulates the PWM, more about this in the Feedback and Control Loop section.
 
-  \begin{figure}[!h]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.55\textwidth]{resources/Scop/PWM_motot_right_PWMin25.png}
-	\caption{PWM with input at 25$\%$}
-	\label{fig:1}
-\end{figure}
-
-  \begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.55\textwidth]{resources/Scop/PWM_motot_right_PWMin50.png}
-	\caption{PWM with input at 50$\%$}
-	\label{fig:2}
+	\subfloat[PWM with input at 25$\%$] {
+		\includegraphics[width=0.45\textwidth]{resources/Scop/PWM_motot_right_PWMin25.png}
+		%\caption{PWM with input at 25$\%$}
+		\label{fig:1}
+	}
+	\subfloat[PWM with input at 50$\%$] {
+		\includegraphics[width=0.45\textwidth]{resources/Scop/PWM_motot_right_PWMin50.png}
+		%\caption{PWM with input at 50$\%$}
+		\label{fig:2}
+	}
 \end{figure}
 
 \newpage
@@ -89,7 +89,7 @@ To control the direction of the motor the H-bridge receives two lines A1 and A2 
 
   \begin{figure}[!h!]
 	\centering
-	\includegraphics[width=0.6\textwidth]{H-bridge_diagram.png}
+	\includegraphics[width=0.4\textwidth]{H-bridge_diagram.png}
 	\caption{H-bridge}
 	\label{fig:3}
 \end{figure}
