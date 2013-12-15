@@ -46,18 +46,18 @@ The step respons on the DC-motor looks like this:
 \section{Microcontroller} 
 The MCU (Microcontroller) is the first part of the link between the sensor input and the DC-motor. In the MCU a translation is made so that the DC-motor can be controlled using simple I2C (Two way communication) commands from the sensor device. A controller is also implemented in the MCU so that the robot is able to run straight without any further instructions from the sensor device.\\
 
-The MCU decodes the command form the sensor devise and then extracts informations about direction and speed. These informations is then sends down to the H-bridge and ends as Voltage in the DC-motor.
+The MCU decodes the command form the sensor devise and then extracts informations about direction and speed. These informations is then sends down to a H-bridge and ends as Voltage in the DC-motor.
 
 \subsection{The MCU}
-The MUC used in the robot is an Atmel ATxmega192c3 a 8bit low-power microcontroller with 192kbyte flash memory running a clock frequency at 32 MHz. The choice of this MCU is based on the its speed performance and its high level of functionality features. The first MCU used in the robot was a Atmel Atmega 32 but after a brief discussion in the group and with the project supervisor we decided to change the MUC because we previously worked with the Atmega32 and wanted to explore more recent technologies and the opportunity to work with the SMD (surface mounted device) method. 
+The MUC used in the robot is an Atmel ATxmega192c3 a 8bit low-power microcontroller with 192kbyte flash memory running a clock frequency at 32 MHz. The choice of this MCU is based on the its speed performance and its high level of functionality features. The first MCU used in this project was a Atmel Atmega 32 but after a brief discussion in the group and with the project supervisor we decided to change the MCU to a more moden model. We previously worked with the Atmega32 and wanted to explore more recent technologies and the opportunity to work with the SMD (surface mounted device) method. 
 
 \subsection{Programming}
 The MUC is programed using Atmels studio 6.1 and the program language used is C. The ASF(Atmel Software Framework) libraries has be used in great extent. For more informations here about visit:\\  www.atmel.com/tools/avrsoftwareframework.aspx \\
 The source code for the MCU can be found in the appendix. 
 
 \section{H-bridge}
-
-The H-bridge receive three line per motor from the MCU The first line controls the speed with a PWM signal and the to other lines control the rotational direction of the motor.
+The H-bridge (TI293DNE) is a well known easy to use device. The devise have been used for robotics for many years and is well documented. \\  
+The H-bridge receive three line per motor (six in total) from the MCU the first line controls the speed with a PWM signal and the to other lines control the rotational direction of the motor. The output from the H-bridge is connected directly to the two DC-motors.
 
 
 \newpage
@@ -67,7 +67,7 @@ The H-bridge receive three line per motor from the MCU The first line controls t
 PWM (Pules-width modulation) is a method frequently used in electronics. The signals intensity it controlled by changing the duty cycle for a square wave signal with a predefined frequency. The controllable range is from 0$\% $ to 100$\%$ 
 The frequency of the square has been chosen to be 20kHz so that is it over the human hearing range. 
 \\
-The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and the H-bridge. The duty cycle output of the MCU is about 15 $\%$ and 82$\%$ The reason for that is that the controller in the MCH manipulates the PWM, more about this in the Feedback and Control Loop section.
+The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and the H-bridge. The duty cycle output of the MCU is about 15 $\%$ and 82$\%$ The reason for that is that the controller in the MCU manipulates the PWM, more about this in the Control System chapter.
 
 \begin{figure}[!h]
 	\centering
@@ -85,17 +85,25 @@ The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and
 
 \newpage
 \subsection{Direction control} 
-To control the direction of the motor the H-bridge receives two lines A1 and A2 these two lines dictates the rotational direction of the DC-motor.
+To control the rotational direction of the DC-motor the H-bridge receives two lines A1 and A2 from the MCU.
 
+When line A1 is high and line A2 is low the corresponding switches S1 and S4 is closed so that the current is running in one direction. when A1 is low and A2 is high the current is running the other way and the motor it turning the other way around. \\
   \begin{figure}[!h!]
 	\centering
 	\includegraphics[width=0.4\textwidth]{H-bridge_diagram.png}
 	\caption{H-bridge}
 	\label{fig:3}
 \end{figure}
-When line A1 is high and line A2 is low the corresponding switches S1 and S4 is closed so that the current is running in one direction. when A1 is low and A2 is high the current is running the other way and the motor it turning the other way around. \\
 
- below is a truth table that describes the functionality of the H-bridge. The EN pin is the PWM input.  
+
+  \begin{figure}[!h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{h_bridge_2.png}
+	\caption{H-bridge in the two states}
+	\label{fig:3}
+\end{figure}
+
+In figure 3.6 is a truth table that describes the functionality of the H-bridge. The EN pin is the PWM input.  
 
   \begin{figure}[!h!]
 	\centering
@@ -107,8 +115,8 @@ When line A1 is high and line A2 is low the corresponding switches S1 and S4 is 
 \newpage
 \section{Encoders}
   The DC-motor includes two encoder outputs which is used to determine position, velocity and direction of the DC-motor.
-  Each encoder outputs 15 pulses per round and after the gear is the resolution $15 \cdot 17.2 = 258$ pulses per round.
-  The two encoder signals is phase shifted at about $\ang{90}$ and that gives us the opportunity to determine the rotational direction of the motor by looking at one encoder signal and then check if the other one it high or low. This method is illustrated below in figure 3.6.
+  Each encoder outputs 15 pulses per round and after the gears is the resolution $15 \cdot 17.2 = 258$ pulses per round.
+  The two encoder signals is phase shifted at about $\ang{90}$ and that gives us the opportunity to determine the rotational direction of the motor by looking at one encoder signal and then check if the other one it high or low. This method is illustrated below in figure 3.7.
    
   \begin{figure}[!h!]
 	\centering
@@ -117,7 +125,7 @@ When line A1 is high and line A2 is low the corresponding switches S1 and S4 is 
 	\label{fig:5}
 \end{figure}
 
-On figure 3.7 we see the actual encoder output from the robot. The phase is about $\ang{100}$ between the two encoders.
+Figure 3.8 shows the actual encoder output from the robot. The phase is about $\ang{100}$ between the two encoders.
   \begin{figure}[!h!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{resources/Scop/encoder.png}
@@ -126,7 +134,7 @@ On figure 3.7 we see the actual encoder output from the robot. The phase is abou
 \end{figure}
 %-----------------------------------------------------_SKAL RETTES _-----------------------------------------
 The velocity is found by sampling the encoder pulses over a time period of 10ms, by counting the pulses during this time and multiply it with a constant the velocity of the motor is given.
-Also the position between the two motors can be find by using two encoders on each motor. First we look at one motor encoder count and then match up the other motor so that the encoder count from the to motors fits, then we know the exact position of the robot. We use these method in the position controller.    
+Also the position between the two motors can be find by using two encoders on each motor. First we look at one motor encoder count and then match this up the other motor so that the encoder count from the to motors fits, then we know the exact position of the robot. We use these method in the position controller.    
 %skal rettes---------------------------------------------------------------------------------------------------
 \newpage
 
@@ -148,20 +156,22 @@ The control loop containing the motor,MCU and encoder can be described as a unit
 The MCU have three different stats with three different controllers so that it can adapt to the given situation during the track. The three states are:
 
 
+
 \begin{itemize}
-\item 1. Straight
-\item 2. Position
-\item 3. Speed
+	\begin{item}
+		\textbf{Straight}\\ This state is designed to make the robot go straight without any corrections from the sensor system.This it done by given both motors a reference speed and then aligning them after the outputs from the encoders by adjusting the speed to each motor. 
+	\end{item}
+	
+	\begin{item}
+		\textbf{Position}\\This state is used when the robot has to do precistion maneuvers. 
+	\end{item}
+	
+	\begin{item}
+		\textbf{Speed}\\This state is used when the robot follows the line by adjusting after instruction from the sensor system.
+	\end{item}
+
 \end{itemize}
 
-The selection of which current stat the MCU should be in is determiant by the raspberry pi(sensor system).
-
-\subsection{Straight state}
-This state is designed to make the robot go straight without any corrections from the sensor system.This it done by given both motors a reference speed and then aligning them after the outputs from the encoders by adjusting the speed to each motor. 
+The selection of which current stat the MCU should be in is determiant by the raspberry pi and is set throgh the I$^2$C bus.
 
 
-\subsection{Position state}
-
-
-\subsection{Speed state}
-This state is used when the robot follows the line by adjusting after instruction from the sensor system. A P-controller it used and the encoders have no influence on the control of the motor.
