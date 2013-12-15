@@ -6128,7 +6128,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="1206"/>
 <part name="MOTOR_LEFT" library="Wuerth_Elektronik_eiCan_05_Box_Header_IDC_Connectors_1_2" deviceset="612008235121" device=""/>
 <part name="MOTOR_RIGHT" library="Wuerth_Elektronik_eiCan_05_Box_Header_IDC_Connectors_1_2" deviceset="612008235121" device=""/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="led" deviceset="LED" device="SML0805"/>
 <part name="D2" library="led" deviceset="LED" device="SML0805"/>
@@ -6161,6 +6160,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY8" library="supply2" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="VCC" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6224,7 +6224,6 @@ PIN 3 = SIG</text>
 <instance part="C10" gate="G$1" x="-20.32" y="-27.94" rot="R180"/>
 <instance part="MOTOR_LEFT" gate="G$1" x="200.66" y="-93.98"/>
 <instance part="MOTOR_RIGHT" gate="G$1" x="284.48" y="-93.98"/>
-<instance part="GND11" gate="1" x="289.56" y="-111.76"/>
 <instance part="GND12" gate="1" x="205.74" y="-111.76"/>
 <instance part="D1" gate="G$1" x="269.24" y="40.64" rot="R270"/>
 <instance part="D2" gate="G$1" x="269.24" y="35.56" rot="R270"/>
@@ -6257,6 +6256,7 @@ PIN 3 = SIG</text>
 <instance part="SUPPLY8" gate="G$1" x="129.54" y="-71.12"/>
 <instance part="GND5" gate="1" x="129.54" y="-127"/>
 <instance part="SUPPLY9" gate="G$1" x="7.62" y="50.8"/>
+<instance part="GND11" gate="1" x="289.56" y="-111.76"/>
 </instances>
 <busses>
 </busses>
@@ -6451,6 +6451,11 @@ PIN 3 = SIG</text>
 <wire x1="129.54" y1="-121.92" x2="129.54" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="129.54" y1="-121.92" x2="129.54" y2="-124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MOTOR_RIGHT" gate="G$1" pin="5"/>
+<wire x1="289.56" y1="-104.14" x2="289.56" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6865,11 +6870,6 @@ PIN 3 = SIG</text>
 <segment>
 <wire x1="106.68" y1="-106.68" x2="106.68" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="MOTOR_RIGHT" gate="G$1" pin="5"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="289.56" y1="-104.14" x2="289.56" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MOTOR_RIGHT" gate="G$1" pin="3"/>

@@ -6521,6 +6521,10 @@ PIN 3 = SIG</text>
 <label x="220.98" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="139.7" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="1-2EN"/>
+<wire x1="233.68" y1="5.08" x2="220.98" y2="5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PW_MR" class="0">
 <segment>
@@ -6528,6 +6532,10 @@ PIN 3 = SIG</text>
 <wire x1="116.84" y1="-27.94" x2="132.08" y2="-27.94" width="0.1524" layer="91"/>
 <label x="279.4" y="-30.48" size="1.778" layer="95" xref="yes"/>
 <label x="139.7" y="-27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="3-4EN"/>
+<wire x1="264.16" y1="-30.48" x2="279.4" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR_L_A1" class="0">
@@ -6537,6 +6545,10 @@ PIN 3 = SIG</text>
 <label x="220.98" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="144.78" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="1A"/>
+<wire x1="233.68" y1="0" x2="220.98" y2="0" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MOTOR_L_A2" class="0">
 <segment>
@@ -6544,6 +6556,10 @@ PIN 3 = SIG</text>
 <wire x1="116.84" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
 <label x="220.98" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="144.78" y="-33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="2A"/>
+<wire x1="233.68" y1="-25.4" x2="220.98" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR_R_A1" class="0">
@@ -6565,11 +6581,9 @@ PIN 3 = SIG</text>
 <label x="279.4" y="-25.4" size="1.778" layer="95" xref="yes"/>
 <label x="144.78" y="-38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="N$25" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="1A"/>
-<wire x1="233.68" y1="0" x2="220.98" y2="0" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="3A"/>
+<wire x1="264.16" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR_L_POWER_-" class="0">
@@ -6583,24 +6597,6 @@ PIN 3 = SIG</text>
 <pinref part="MOTOR_LEFT" gate="G$1" pin="6"/>
 <wire x1="205.74" y1="-83.82" x2="205.74" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="-83.82" x2="205.74" y2="-76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="2A"/>
-<wire x1="233.68" y1="-25.4" x2="220.98" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="3-4EN"/>
-<wire x1="264.16" y1="-30.48" x2="279.4" y2="-30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="3A"/>
-<wire x1="264.16" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR_R_POWER_-" class="0">
@@ -6661,12 +6657,6 @@ PIN 3 = SIG</text>
 <segment>
 <pinref part="MOTOR_LEFT" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="-114.3" x2="195.58" y2="-104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="1-2EN"/>
-<wire x1="233.68" y1="5.08" x2="220.98" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USER_KEY" class="0">

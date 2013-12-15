@@ -46,7 +46,7 @@ The step respons on the DC-motor looks like this:
 \section{Microcontroller} 
 The MCU (Microcontroller) is the first part of the link between the sensor input and the DC-motor. In the MCU a translation is made so that the DC-motor can be controlled using simple I2C (Two way communication) commands from the sensor device. A controller is also implemented in the MCU so that the robot is able to run straight without any further instructions from the sensor device.\\
 
-The MCU decodes the command form the sensor devise and then extracts informations about direction and speed. These informations is then sends down to the H-bridge and ends as Voltage in the DC-motor.
+The MCU decodes the command form the sensor devise and then extracts informations about direction and speed. These informations is then sends down to a H-bridge and ends as Voltage in the DC-motor.
 
 \subsection{The MCU}
 The MUC used in the robot is an Atmel ATxmega192c3 a 8bit low-power microcontroller with 192kbyte flash memory running a clock frequency at 32 MHz. The choice of this MCU is based on the its speed performance and its high level of functionality features. The first MCU used in the robot was a Atmel Atmega 32 but after a brief discussion in the group and with the project supervisor we decided to change the MUC because we previously worked with the Atmega32 and wanted to explore more recent technologies and the opportunity to work with the SMD (surface mounted device) method. 
@@ -67,7 +67,7 @@ The H-bridge receive three line per motor from the MCU The first line controls t
 PWM (Pules-width modulation) is a method frequently used in electronics. The signals intensity it controlled by changing the duty cycle for a square wave signal with a predefined frequency. The controllable range is from 0$\% $ to 100$\%$ 
 The frequency of the square has been chosen to be 20kHz so that is it over the human hearing range. 
 \\
-The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and the H-bridge. The duty cycle output of the MCU is about 15 $\%$ and 82$\%$ The reason for that is that the controller in the MCH manipulates the PWM, more about this in the Feedback and Control Loop section.
+The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and the H-bridge. The duty cycle output of the MCU is about 15 $\%$ and 82$\%$ The reason for that is that the controller in the MCU manipulates the PWM, more about this in the Feedback and Control Loop section.
 
   \begin{figure}[!h]
 	\centering
@@ -85,11 +85,11 @@ The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and
 
 \newpage
 \subsection{Direction control} 
-To control the direction of the motor the H-bridge receives two lines A1 and A2 these two lines dictates the rotational direction of the DC-motor.
+To control the rotational direction of the DC-motor the H-bridge receives two lines A1 and A2 from the MCU.
 
   \begin{figure}[!h!]
 	\centering
-	\includegraphics[width=0.6\textwidth]{H-bridge_diagram.png}
+	\includegraphics[width=0.5\textwidth]{H-bridge_diagram.png}
 	\caption{H-bridge}
 	\label{fig:3}
 \end{figure}
@@ -102,7 +102,7 @@ When line A1 is high and line A2 is low the corresponding switches S1 and S4 is 
 	\label{fig:3}
 \end{figure}
 
- below is a truth table that describes the functionality of the H-bridge. The EN pin is the PWM input.  
+ Below is a truth table that describes the functionality of the H-bridge. The EN pin is the PWM input.  
 
   \begin{figure}[!h!]
 	\centering
@@ -155,20 +155,22 @@ The control loop containing the motor,MCU and encoder can be described as a unit
 The MCU have three different stats with three different controllers so that it can adapt to the given situation during the track. The three states are:
 
 
+
 \begin{itemize}
-\item 1. Straight
-\item 2. Position
-\item 3. Speed
+	\begin{item}
+		\textbf{Straight}\\ This state is designed to make the robot go straight without any corrections from the sensor system.This it done by given both motors a reference speed and then aligning them after the outputs from the encoders by adjusting the speed to each motor. 
+	\end{item}
+	
+	\begin{item}
+		\textbf{Position}\\
+	\end{item}
+	
+	\begin{item}
+		\textbf{Speed}\\This state is used when the robot follows the line by adjusting after instruction from the sensor system. A P-controller it used and the encoders have no influence on the control of the motor.
+	\end{item}
+
 \end{itemize}
 
-The selection of which current stat the MCU should be in is determiant by the raspberry pi(sensor system).
-
-\subsection{Straight state}
-This state is designed to make the robot go straight without any corrections from the sensor system.This it done by given both motors a reference speed and then aligning them after the outputs from the encoders by adjusting the speed to each motor. 
+The selection of which current stat the MCU should be in is determiant by the raspberry pi(sensor system) and is set throgh the I2C bus.
 
 
-\subsection{Position state}
-
-
-\subsection{Speed state}
-This state is used when the robot follows the line by adjusting after instruction from the sensor system. A P-controller it used and the encoders have no influence on the control of the motor.

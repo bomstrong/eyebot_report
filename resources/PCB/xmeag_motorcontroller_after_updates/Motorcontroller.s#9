@@ -6075,7 +6075,6 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="PDI" library="Wuerth_Elektronik_eiCan_05_Box_Header_IDC_Connectors_1_2" deviceset="61200622323" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206"/>
 <part name="I2C#1" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" deviceset="61900211121" device="" value=""/>
 <part name="I2C#2" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" deviceset="61900211121" device="" value=""/>
@@ -6161,7 +6160,6 @@ PIN 3 = SIG</text>
 <instance part="GND3" gate="1" x="0" y="12.7"/>
 <instance part="GND4" gate="1" x="-20.32" y="96.52"/>
 <instance part="PDI" gate="G$1" x="0" y="91.44" rot="R90"/>
-<instance part="GND5" gate="1" x="-96.52" y="91.44"/>
 <instance part="R2" gate="G$1" x="22.86" y="114.3"/>
 <instance part="I2C#1" gate="G$1" x="160.02" y="48.26"/>
 <instance part="I2C#2" gate="G$1" x="180.34" y="48.26"/>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  15 DEC 2013 15:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  15 DEC 2013 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1485,7 +1485,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./titlePage.tex
-<resources/tex_dtu_uk_a1_cmyk.pdf, id=200, 248.93pt x 58.2175pt>
+<resources/tex_dtu_uk_a1_cmyk.pdf, id=188, 248.93pt x 58.2175pt>
 File: resources/tex_dtu_uk_a1_cmyk.pdf Graphic file (type pdf)
 
 <use resources/tex_dtu_uk_a1_cmyk.pdf>
@@ -1528,7 +1528,7 @@ No file eyebot_adbc.nls.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 16.
 
-<resources/Blockdiagram.png, id=276, 656.4525pt x 350.30875pt>
+<resources/Blockdiagram.png, id=261, 656.4525pt x 350.30875pt>
 File: resources/Blockdiagram.png Graphic file (type png)
 
 <use resources/Blockdiagram.png>
@@ -1557,14 +1557,14 @@ been already used, duplicate ignored
                    \relax 
 l.46 
       [2 <./resources/Blockdiagram.png (PNG copy)>] [3]) (./ch_camera.tex
-[4] <resources/img-straight.png, id=306, 321.2pt x 240.9pt>
+[4] <resources/img-straight.png, id=291, 321.2pt x 240.9pt>
 File: resources/img-straight.png Graphic file (type png)
 
 <use resources/img-straight.png>
 Package pdftex.def Info: resources/img-straight.png used on input line 23.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/img-intersection.png, id=307, 321.2pt x 240.9pt>
+<resources/img-intersection.png, id=292, 321.2pt x 240.9pt>
 File: resources/img-intersection.png Graphic file (type png)
 
 <use resources/img-intersection.png>
@@ -1585,7 +1585,7 @@ Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 [6 <./resources/img-straight.png (PNG copy)> <./resources/img-intersection.png 
 (PNG copy)>]
-<resources/img-line-straight-raw-sliced.png, id=324, 321.2pt x 240.9pt>
+<resources/img-line-straight-raw-sliced.png, id=308, 321.2pt x 240.9pt>
 File: resources/img-line-straight-raw-sliced.png Graphic file (type png)
 
 <use resources/img-line-straight-raw-sliced.png>
@@ -1593,14 +1593,14 @@ Package pdftex.def Info: resources/img-line-straight-raw-sliced.png used on inp
 ut line 79.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/hist-no-filter.png, id=326, 481.8pt x 160.6pt>
+<resources/hist-no-filter.png, id=310, 481.8pt x 160.6pt>
 File: resources/hist-no-filter.png Graphic file (type png)
 
 <use resources/hist-no-filter.png>
 Package pdftex.def Info: resources/hist-no-filter.png used on input line 95.
 (pdftex.def)             Requested size: 340.8013pt x 113.60283pt.
 
-<resources/hist-filter.png, id=330, 481.8pt x 160.6pt>
+<resources/hist-filter.png, id=314, 481.8pt x 160.6pt>
 File: resources/hist-filter.png Graphic file (type png)
 
 <use resources/hist-filter.png>
@@ -1612,7 +1612,7 @@ png (PNG copy)>]
 Package natbib Warning: Citation `myler1993' on page 8 undefined on input line 
 122.
 
-<resources/hist-zoom-valley.png, id=343, 481.8pt x 160.6pt>
+<resources/hist-zoom-valley.png, id=328, 481.8pt x 160.6pt>
 File: resources/hist-zoom-valley.png Graphic file (type png)
 
 <use resources/hist-zoom-valley.png>
@@ -1651,7 +1651,7 @@ Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 
 [8 <./resources/hist-filter.png (PNG copy)>]
-<resources/img-straight-thr.png, id=358, 321.2pt x 240.9pt>
+<resources/img-straight-thr.png, id=343, 321.2pt x 240.9pt>
 File: resources/img-straight-thr.png Graphic file (type png)
 
 <use resources/img-straight-thr.png>
@@ -1659,7 +1659,7 @@ Package pdftex.def Info: resources/img-straight-thr.png used on input line 180.
 
 (pdftex.def)             Requested size: 127.8013pt x 95.85101pt.
 
-<resources/img-intersection-thr.png, id=359, 321.2pt x 240.9pt>
+<resources/img-intersection-thr.png, id=344, 321.2pt x 240.9pt>
 File: resources/img-intersection-thr.png Graphic file (type png)
 
 <use resources/img-intersection-thr.png>
@@ -1672,7 +1672,7 @@ Package natbib Warning: Citation `moeslund2009' on page 9 undefined on input li
 ne 198.
 
 [9 <./resources/hist-zoom-valley.png (PNG copy)>]
-<resources/img-straight-thr-pt.png, id=385, 321.2pt x 240.9pt>
+<resources/img-straight-thr-pt.png, id=370, 321.2pt x 240.9pt>
 File: resources/img-straight-thr-pt.png Graphic file (type png)
 
 <use resources/img-straight-thr-pt.png>
@@ -1680,7 +1680,7 @@ Package pdftex.def Info: resources/img-straight-thr-pt.png used on input line 2
 15.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/img-intersection-thr-pt.png, id=386, 321.2pt x 240.9pt>
+<resources/img-intersection-thr-pt.png, id=371, 321.2pt x 240.9pt>
 File: resources/img-intersection-thr-pt.png Graphic file (type png)
 
 <use resources/img-intersection-thr-pt.png>
@@ -1700,7 +1700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
 [11
 
-] <resources/motor_transfer_function.png, id=403, 531.9875pt x 427.5975pt>
+] <resources/motor_transfer_function.png, id=388, 531.9875pt x 427.5975pt>
 File: resources/motor_transfer_function.png Graphic file (type png)
 
 <use resources/motor_transfer_function.png>
@@ -1713,7 +1713,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 [12 <./resources/motor_transfer_function.png>] [13]
-<resources/Scop/PWM_motot_right_PWMin25.png, id=416, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin25.png, id=401, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin25.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin25.png>
@@ -1721,7 +1721,7 @@ Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin25.png used on inp
 ut line 74.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
 
-<resources/Scop/PWM_motot_right_PWMin50.png, id=417, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin50.png, id=402, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin50.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin50.png>
@@ -1730,25 +1730,25 @@ ut line 81.
 (pdftex.def)             Requested size: 234.3013pt x 175.7232pt.
  [14 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot
 _right_PWMin50.png>]
-<resources/H-bridge_diagram.png, id=426, 503.8825pt x 286.06876pt>
+<resources/H-bridge_diagram.png, id=411, 503.8825pt x 286.06876pt>
 File: resources/H-bridge_diagram.png Graphic file (type png)
 
 <use resources/H-bridge_diagram.png>
 Package pdftex.def Info: resources/H-bridge_diagram.png used on input line 92.
-(pdftex.def)             Requested size: 255.6026pt x 145.11179pt.
+(pdftex.def)             Requested size: 213.0pt x 120.92503pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<resources/h_bridge_2.png, id=427, 946.53625pt x 290.08376pt>
+<resources/h_bridge_2.png, id=412, 946.53625pt x 290.08376pt>
 File: resources/h_bridge_2.png Graphic file (type png)
 
 <use resources/h_bridge_2.png>
 Package pdftex.def Info: resources/h_bridge_2.png used on input line 100.
 (pdftex.def)             Requested size: 340.8013pt x 104.44334pt.
 
-<resources/H-bridge_table.png, id=428, 353.32pt x 164.615pt>
+<resources/H-bridge_table.png, id=413, 353.32pt x 164.615pt>
 File: resources/H-bridge_table.png Graphic file (type png)
 
 <use resources/H-bridge_table.png>
@@ -1759,14 +1759,14 @@ Package pdftex.def Info: resources/H-bridge_table.png used on input line 109.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15 <./resources/H-bridge_diagram.png> <./resources/h_bridge_2.png>]
-<resources/encoder_atmel.png, id=437, 487.8225pt x 291.0875pt>
+<resources/encoder_atmel.png, id=421, 487.8225pt x 291.0875pt>
 File: resources/encoder_atmel.png Graphic file (type png)
 
 <use resources/encoder_atmel.png>
 Package pdftex.def Info: resources/encoder_atmel.png used on input line 122.
 (pdftex.def)             Requested size: 298.1987pt x 177.94064pt.
 
-<resources/Scop/encoder.png, id=438, 803.0pt x 602.25pt>
+<resources/Scop/encoder.png, id=422, 803.0pt x 602.25pt>
 File: resources/Scop/encoder.png Graphic file (type png)
 
 <use resources/Scop/encoder.png>
@@ -1778,38 +1778,60 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16 <./resources/H-bridge_table.png> <./resources/encoder_atmel.png>] [17 <./re
 sources/Scop/encoder.png>]
-<resources/feedbackloop.png, id=451, 406.51875pt x 106.3975pt>
+<resources/feedbackloop.png, id=436, 406.51875pt x 106.3975pt>
 File: resources/feedbackloop.png Graphic file (type png)
 
 <use resources/feedbackloop.png>
 Package pdftex.def Info: resources/feedbackloop.png used on input line 146.
 (pdftex.def)             Requested size: 340.8013pt x 89.20119pt.
-) (./ch_wall_dist.tex [18 <./resources/feedbackloop.png>] <resources/irsensor.p
-ng, id=457, 401.5pt x 574.145pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+) (./ch_wall_dist.tex [18 <./resources/feedbackloop.png>]
+<resources/irsensor.png, id=442, 401.5pt x 574.145pt>
 File: resources/irsensor.png Graphic file (type png)
 
 <use resources/irsensor.png>
 Package pdftex.def Info: resources/irsensor.png used on input line 8.
 (pdftex.def)             Requested size: 63.8974pt x 91.3657pt.
- [19
 
- <./resources/irsensor.png>]
-<resources/wall_robot.png, id=463, 423.5825pt x 520.94624pt>
-File: resources/wall_robot.png Graphic file (type png)
-
-<use resources/wall_robot.png>
-Package pdftex.def Info: resources/wall_robot.png used on input line 34.
-(pdftex.def)             Requested size: 255.6026pt x 314.35074pt.
- [20 <./resources/wall_robot.png>]
-<resources/adcgraf.png, id=469, 1493.58pt x 840.13875pt>
+<resources/adcgraf.png, id=443, 1493.58pt x 840.13875pt>
 File: resources/adcgraf.png Graphic file (type png)
 
 <use resources/adcgraf.png>
-Package pdftex.def Info: resources/adcgraf.png used on input line 44.
+Package pdftex.def Info: resources/adcgraf.png used on input line 17.
 (pdftex.def)             Requested size: 340.8013pt x 191.70233pt.
-) (./ch_communication.tex [21 <./resources/adcgraf.png>] [22
 
-]) (./ch_controller.tex [23] [24
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19
+
+ <./resources/irsensor.png>]
+<resources/wall_robot.png, id=450, 423.5825pt x 520.94624pt>
+File: resources/wall_robot.png Graphic file (type png)
+
+<use resources/wall_robot.png>
+Package pdftex.def Info: resources/wall_robot.png used on input line 53.
+(pdftex.def)             Requested size: 213.0pt x 261.95894pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./resources/adcgraf.png>]) (./ch_communication.tex [21 <./resources/wall_r
+obot.png>] [22
+
+]
+<resources/communication_i2c_diagram.png, id=466, 969.6225pt x 503.8825pt>
+File: resources/communication_i2c_diagram.png Graphic file (type png)
+
+<use resources/communication_i2c_diagram.png>
+Package pdftex.def Info: resources/communication_i2c_diagram.png used on input 
+line 7.
+(pdftex.def)             Requested size: 340.8013pt x 177.10732pt.
+) (./ch_controller.tex [23 <./resources/communication_i2c_diagram.png>] [24
 
 ]
 
@@ -1867,7 +1889,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `eyebot_adbc.out' has not changed.
-(rerunfilecheck)             Checksum: C61E6965CE0506A273B474CB65A09AE8;3202.
+(rerunfilecheck)             Checksum: 55AADA750DCD0DDC69D5627AE5A83963;3001.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1881,10 +1903,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 25176 strings out of 493307
- 451610 string characters out of 6139904
- 650292 words of memory out of 5000000
- 27872 multiletter control sequences out of 15000+600000
+ 25177 strings out of 493307
+ 451760 string characters out of 6139904
+ 650384 words of memory out of 5000000
+ 27874 multiletter control sequences out of 15000+600000
  73720 words of font info for 207 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,17n,96p,953b,1537s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1901,10 +1923,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on eyebot_adbc.pdf (40 pages, 714724 bytes).
+Output written on eyebot_adbc.pdf (40 pages, 736460 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 145 named destinations out of 1000 (max. 500000)
- 36353 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 513 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 36334 words of extra memory for PDF output out of 42996 (max. 10000000)
 
