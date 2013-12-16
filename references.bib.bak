@@ -2,6 +2,26 @@
 % Encoding: UTF-8
 
 
+@Book{aastrom1995,
+  Title                    = {PID Controllers: Theory, Design, and Tuning},
+  Author                   = {K. J. Astrom and T. Hagglund},
+  Publisher                = {International Society for Measurement and Con.},
+  Year                     = {1995},
+
+  Owner                    = {jafp},
+  Timestamp                = {2013.12.15}
+}
+
+@Article{avr221,
+  Title                    = {{AVR}221: {D}iscrete {PID} {C}ontroller},
+  Author                   = {Atmel},
+  Journal                  = {Atmel Application Note},
+  Year                     = {2006},
+
+  Owner                    = {jafp},
+  Timestamp                = {2013.12.15}
+}
+
 @Article{friesel_note7,
   Title                    = {Note 7 - {PID} {C}ontroller},
   Author                   = {Anna Friesel},
@@ -50,5 +70,15 @@
 
   Owner                    = {jafp},
   Timestamp                = {2013.12.14}
+}
+
+@Article{zhong2006,
+  Title                    = {{PID} {C}ontroller {T}uning: {A} {S}hort {T}utorial},
+  Author                   = {Jinghua Zhong},
+  Journal                  = {Purdue University},
+  Year                     = {2006},
+
+  Owner                    = {jafp},
+  Timestamp                = {2013.12.15}
 }
 

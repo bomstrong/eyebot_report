@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: eyebot_jp.aux
 The style file: plainnat.bst
 Database file #1: references.bib
-You've used 5 entries,
+You've used 6 entries,
             2773 wiz_defined-function locations,
-            614 strings with 5209 characters,
-and the built_in function-call counts, 1574 in all, are:
-= -- 124
-> -- 61
-< -- 5
-+ -- 24
-- -- 18
-* -- 89
-:= -- 261
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 18
-chr.to.int$ -- 4
-cite$ -- 10
-duplicate$ -- 98
-empty$ -- 157
-format.name$ -- 25
-if$ -- 322
-int.to.chr$ -- 2
+            621 strings with 5429 characters,
+and the built_in function-call counts, 1933 in all, are:
+= -- 156
+> -- 82
+< -- 6
++ -- 30
+- -- 24
+* -- 108
+:= -- 319
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 117
+empty$ -- 187
+format.name$ -- 34
+if$ -- 398
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 33
-num.names$ -- 20
-pop$ -- 55
+missing$ -- 9
+newline$ -- 38
+num.names$ -- 24
+pop$ -- 65
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 20
 quote$ -- 0
-skip$ -- 63
+skip$ -- 82
 stack$ -- 0
-substring$ -- 10
-swap$ -- 7
+substring$ -- 12
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
+type$ -- 51
 warning$ -- 0
-while$ -- 15
+while$ -- 18
 width$ -- 0
-write$ -- 67
+write$ -- 79

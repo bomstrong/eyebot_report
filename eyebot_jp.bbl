@@ -1,19 +1,24 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Friesel(2010{\natexlab{a}})]{friesel_note7}
-Anna Friesel.
-\newblock Note 7 - {PID} {C}ontroller.
-\newblock \emph{IHK}, 2010{\natexlab{a}}.
+\bibitem[Astrom and Hagglund(1995)]{aastrom1995}
+K.~J. Astrom and T.~Hagglund.
+\newblock \emph{PID Controllers: Theory, Design, and Tuning}.
+\newblock International Society for Measurement and Con., 1995.
 
-\bibitem[Friesel(2010{\natexlab{b}})]{friesel_note9}
-Anna Friesel.
-\newblock Note 9 - {D}iscrete {PID}.
-\newblock \emph{IHK}, 2010{\natexlab{b}}.
+\bibitem[Atmel(2006)]{avr221}
+Atmel.
+\newblock {AVR}221: {D}iscrete {PID} {C}ontroller.
+\newblock \emph{Atmel Application Note}, 2006.
+
+\bibitem[Copeland(2008)]{copeland2008}
+Brian~R. Copeland.
+\newblock {The Design of PID Controllers using Ziegler Nichols Tuning}.
+\newblock \emph{UWI}, 2008.
 
 \bibitem[Moeslund(2009)]{moeslund2009}
 Thomas~B. Moeslund.
@@ -25,9 +30,9 @@ Harley~R. Myler and Arthur~R. Weeks.
 \newblock \emph{The Pocket Handbook of Image Processing Algorithms in C}.
 \newblock Prentice Hall, 1993.
 
-\bibitem[Nise(2011)]{nise2011}
-Norman~S. Nise.
-\newblock \emph{Control Systems Engineering}.
-\newblock John Wiley \& Sons, Inc., 2011.
+\bibitem[Zhong(2006)]{zhong2006}
+Jinghua Zhong.
+\newblock {PID} {C}ontroller {T}uning: {A} {S}hort {T}utorial.
+\newblock \emph{Purdue University}, 2006.
 
 \end{thebibliography}
