@@ -5,19 +5,14 @@
 %duty cycle, measurements and tests, pwm frequency, h-bridge limitations
 %Figures: PWM, H-bridge output (measurement), tacho (theory + measurement), schematic (section cut), direction table, 
 
-
-
-
 \section {The DC-motor}
 
-
-\subsection{DC-motor}
 The DC-motor is an essential part of the robot. The motors used in this project are the Faulhaber 2233012S which is a 12 volt armature motor.  To succeed the tasks given in the assignment is it very important to gain control over the motor by understanding the datasheet that describes the motor. The motors dose not only supply the robot with driving force but is also the steering part of the robot.
 
 \subsection{Gears}
 To give the robot more torque a gear system has been implemented in the motors. The cost of high torque through a gearsystem is a reduction in rotational speed. The gearing factor that is used is $\frac{1}{17.2}$ which means that the output shaft only turns one revolution every times the motor itself have turned 17.2 revolutions. The gear system do have some disadvantages by giving the motor nonlinearity like backlash and deadlocks. 
 
-\subsection{Transferfunction for DC-motor}
+\subsection{Transfer function for DC-motor}
 In assignment 1 from the control theory course we calculated a transfer function for at DC-motor. By using this knowledge and theory we are able to calculate a transfer function for the DC-motor used in this project.
 The transfer function for the DC-motor is needed for making simulations of the hole system later on.\\
 All motor data is fund in the datasheet and the weight of the robot is fund by weighting the robot on a digital precision scale and is fund to be 1400 g or 1.4 kg. \\
@@ -50,21 +45,18 @@ The MCU (Microcontroller) is the first part of the link between the sensor input
 
 The MCU decodes the command form the Raspberry pi and then extracts informations about direction and speed. These informations is then send down to a H-bridge and ends as Voltage in the DC-motor.
 
-\subsection{The MCU}
+\subsection{Atmel's XMEGA series}
 The MUC used in the robot is an Atmel ATxmega192c3 a 8bit low-power microcontroller with 192kbyte flash memory running a clock frequency at 32 MHz. The choice of this MCU is based on the its speed performance and its high level of functionality features. The first MCU used in this project was a Atmel Atmega 32 but after a brief discussion in the group and with the project supervisor we decided to change the MCU to a more modern model. We previously worked with the Atmega32 and wanted to explore more recent technologies and the opportunity to work with the SMD (surface mounted device) method. 
 
-\subsection{Programming}
-The MUC is programed using Atmel studio 6.1 and the program language used is C. The ASF (Atmel Software Framework) libraries has be used to a great extent. For more informations here about visit:\\  www.atmel.com/tools/avrsoftwareframework.aspx \\
+\subsection{Programming and tools}
+The MUC is programed using Atmel studio 6.1 and the program language used is C. The ASF (Atmel Software Framework, \citep{asf}) libraries has be used to a great extent.  \\
 The source code for the MCU can be found in the appendix. 
 
-\section{H-bridge}
+\section{H-bridge as driver}
 The H-bridge (TI293DNE) is a well known easy to use device. The devise have been used for robotics for many years and is well documented. \\  
 The H-bridge receive three lines per motor (six in total) from the MCU the first line controls the speed with a PWM signal and the to other lines control the rotational direction of the motor. The output from the H-bridge is connected directly to the two DC-motors.
 
-
-\newpage
-
-\subsection{PWM Pulse-width modulation}
+\subsection{PWM - Pulse Width Modulation}
 
 PWM (Pules-width modulation) is a frequently used method in electronics. The signals intensity it controlled by changing the duty cycle for a square wave signal with a predefined frequency. The controllable range is from 0$\% $ to 100$\%$ 
 The frequency of the square has been chosen to be 20kHz so that is it over the human hearing range. 
@@ -85,7 +77,6 @@ The figures below shows how a 25$\%$ and a 50$\%$  PWM looks between the MCU and
 	}
 \end{figure}
 
-\newpage
 \subsection{Direction control} 
 To control the rotational direction of the DC-motor the H-bridge receives two lines A1 and A2 from the MCU.
 
@@ -114,7 +105,6 @@ In figure 3.6 is a truth table that describes the functionality of the H-bridge.
 	\label{fig:intro_4}
 \end{figure}
 
-\newpage
 \section{Encoders}
   The DC-motor includes two encoder outputs which is used to determine position, velocity and direction of the DC-motor.
   Each encoder outputs 15 pulses per round and after the gears is the resolution $15 \cdot 17.2 = 258$ pulses per round.
@@ -123,7 +113,7 @@ In figure 3.6 is a truth table that describes the functionality of the H-bridge.
   \begin{figure}[!h!]
 	\centering
 	\includegraphics[width=0.7\textwidth]{resources/encoder_atmel.png}
-	\caption{Encoder illustration from atmel Application Note AVR 1600 aboute Quadrature Decoder}
+	\caption{Encoder illustration (from Atmel's Application Note on Quadrature Decoders, \citep{avr1600})}
 	\label{fig:5}
 \end{figure}
 
@@ -138,7 +128,6 @@ Figure 3.8 shows the actual encoder output from the robot. The phase is about $\
 The velocity is found by sampling the encoder pulses over a time period of 10ms, by counting the pulses during this time and multiply it with a constant the velocity of the motor is given.
 Also the position between the two motors can be find by using two encoders on each motor. First we look at one motor encoder count and then match this up the other motor so that the encoder count from the to motors fits, then we know the exact position of the robot. We use these method in the position controller.    
 %skal rettes---------------------------------------------------------------------------------------------------
-\newpage
 
 \section{Feedback and Control Loop}
 The control loop containing the motor,MCU and encoder can be described as a unity feedback loop.
@@ -151,13 +140,7 @@ The control loop containing the motor,MCU and encoder can be described as a unit
 	\label{fig:6}
 \end{figure}
 
-
-
-
-
 The MCU have three different stats with three different controllers so that it can adapt to the given situation during the track. The three states are:
-
-
 
 \begin{itemize}
 	\begin{item}
