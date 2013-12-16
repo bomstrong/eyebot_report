@@ -1,10 +1,22 @@
 \chapter{Following The Track}
 \label{chap:track} 
 
-\section{Requirements for the track}
-Line, going straight forward, precise turns (position control), measuring distance to the wall in the front, measuring distance in the side
+This chapter goes into detail about the steps taken to complete the track. Most of this chapter may be seen as pseudo code, of what is really implemented in the robot.
 
-\subsection{State machine}
+\section{Requirements for the track}
+Here follows a list of movements, the robots must be able to do, to complete the track. 
+
+\begin{itemize}
+	\item Drive straight forward - solved by an aggressive velocity PI-controller.
+	\item Rotate, by driving a precise distance at one of the wheels - solved by using a position PI-controller.
+	\item Detect the distance in front, to stop 20 cm from the wall.
+	\item Detect the distance to the wall on the left side of the robot. 
+	\item Follow/stick to the wall using the two distance sensors mounted on the left side of the robot.
+\end{itemize}
+
+%Line, going straight forward, precise turns (position control), measuring distance to the wall in the front, measuring distance in the side
+
+\section{State machine}
 An mentioned earlier in the report, a central state machine implemented in the Raspberry Pi, is responsible for keeping track of the overall state when completing the track. Below is a detailed explanation of each state in the state machine. Chapter \ref{ch:motors} discussed the internal states used by the motor controller, hence it is not discussed here.
 
 \begin{itemize}

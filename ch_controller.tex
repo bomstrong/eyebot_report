@@ -4,19 +4,19 @@ In this section, the control systems of the robot will be discussed in more deta
 
 \section{Control Systems in Eyebot}
 
-The system consist of several controllers, with some of them implemented in the Raspberry Pi (for following the line and the wall), and the other ones implemented in the XMEGA for specific tasks (driving straight forward, position, speed). 
+The system consist of several controllers, with some of them implemented in the Raspberry Pi (for following the line and the wall), and the other ones implemented in the MCU for specific tasks (driving straight forward, position, speed). 
 
 %
 %
 %
 %
-\subsection{Controllers in the XMEGA}
+\subsection{Controllers in the MCU}
 
-Three special-purpose controller are implemented in the XMEGA, controlled by an internal state machine (explained in chapter \ref{ch:motors}).   
+Three special-purpose controller are implemented in the MCU, controlled by an internal state machine (explained in chapter \ref{ch:motors}).   
 
 \subsubsection{Speed (velocity) controller}
 
-The initial state of the XMEGA is, to act as a speed controller given some reference. This controller is simple P-controller, where the error signal is calculated using the sampled speed from the encoders. Figure \ref{fig:control_1} shows a simplistic model of the speed control feedback loop.
+The initial state of the MCU is, to act as a speed controller given some reference. This controller is simple P-controller, where the error signal is calculated using the sampled speed from the encoders. Figure \ref{fig:control_1} shows a simplistic model of the speed control feedback loop.
 
 \begin{figure}[!ht]
 	\centering
@@ -49,7 +49,7 @@ This controller is implemented as a more advanced PI-controller, to ensure that 
 \subsection{Controllers in the Raspberry Pi}
 
 \subsubsection{Following the line}
-When following the line, a PID controller implemented in the Raspberry Pi, uses the camera as error signal, and calculates the necessary compensation. This compensation is a speed for the left and right motor, which are sent to the XMEGA motor controller over I2C. In the XMEGA a simple P-controller uses the speed received from the Raspberry Pi as 
+When following the line, a PID controller implemented in the Raspberry Pi, uses the camera as error signal, and calculates the necessary compensation. This compensation is a speed for the left and right motor, which are sent to the MCU motor controller over I2C. In the MCU a simple P-controller uses the speed received from the Raspberry Pi as 
 a reference, and together with its encoder measurements, a speed for each motor is calculated.
 
 \subsubsection{Following the wall}

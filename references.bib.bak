@@ -22,6 +22,16 @@
   Timestamp                = {2013.12.15}
 }
 
+@Article{copeland2008,
+  Title                    = {{The Design of PID Controllers using Ziegler Nichols Tuning}},
+  Author                   = {Brian R. Copeland},
+  Journal                  = {UWI},
+  Year                     = {2008},
+
+  Owner                    = {jafp},
+  Timestamp                = {2013.12.15}
+}
+
 @Article{friesel_note7,
   Title                    = {Note 7 - {PID} {C}ontroller},
   Author                   = {Anna Friesel},
