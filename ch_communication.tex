@@ -1,4 +1,5 @@
 \chapter{Communication between devices}
+\label{ch_communication}
 %Key words: Master slave, block diagram, pull up res, cmd controlled,  
 %pi pull up = $1.8k\Omega$
 Communication between the various device in the robot is a vital issue. Without proper communications the robot will not be able to function after the intention. In this project the communication protocol has been chosen to be the I$^2$C protocol because is it more flexible then for example the SPI protocol.    
@@ -21,7 +22,7 @@ The I$^2$C (Inter-Integrated Circuit) protocol is a very used communication meth
 \end{figure}
 \newpage
 \section{Implementation}
-In this project the Raspberry pi is the I$^2$C master because it is within this devise all the processing in produced. The Raspberry pi is running the I$^2$C bus at 100kHz and is equipped with two 1.8k$\Omega$ pull up resistors.\\ To make the communication procedure easier, a command system has been implemented in all the devices attached to the I$^2$C bus (not the IO expander because this device it a static I$^2$C device). The system makes the first data byte in the data stream to a command(CMD) and this command then calls different functions that deals with the rest of the data in the stream.   
+In this project the Raspberry Pi is the I$^2$C master because it is within this devise all the processing in produced. The Raspberry Pi is running the I$^2$C bus at 100 kHz and is equipped with two 1.8 k$\Omega$ pull up resistors.\\ To make the communication procedure easier, a command system has been implemented in all the devices attached to the I$^2$C bus (not the IO expander because this device it a preprogrammed I$^2$C device). The system makes the first data byte in the data stream to a command(CMD) and this command then calls different functions that deals with the rest of the data in the stream.   
 
 
 
@@ -30,43 +31,39 @@ The I$^2$C commands are:
 
 \begin{itemize}
 	\begin{item}
-		\textbf{ CMD 0x05}: cmd set led\\ The raspberry pi writes one byte that controls the three LEDs on the motor controller board.
+		\textbf{ CMD 0x05}: Set Led\\ The Raspberry Pi writes one byte that controls the three LEDs on the motor controller board.
 	\end{item}
 
 	\begin{item}
-		\textbf{ CMD 0x10}: cmd get speed\\ read two bytes of data that contains the speed for each motor calculated in the MCU.
+		\textbf{ CMD 0x10}: Get Speed\\ read two bytes of data that contains the speed for each motor calculated in the MCU.
 	\end{item}
 	
 	\begin{item}
-		\textbf{ CMD 0x20}: cmd set speed \\ Raspberry pi Writes two bytes to set the motor speed by changing the PWM value.
+		\textbf{ CMD 0x20}: Set Speed \\ Raspberry Pi Writes two bytes to set the motor speed by changing the PWM value.
 	\end{item}	
 	
 	\begin{item}
-		\textbf{ CMD 0x30}: cmd set dir\\ Raspberry pi writes two byte that sets the detection on the motors by changing the four direction bits in the MCU.
+		\textbf{ CMD 0x30}: Set Dir\\ Raspberry Pi writes two byte that sets the detection on the motors by changing the four direction bits in the MCU.
 	\end{item}
 
 	\begin{item}
-		\textbf{CMD 0x50}: cmd set state\\ Raspberry pi writes one bite that changes the states in the MCU between Speed, Position and Straight. 
+		\textbf{CMD 0x50}: Set State\\ Raspberry Pi writes one bite that changes the states in the MCU between Speed, Position and Straight. 
 	\end{item}
 	
 	\begin{item}
-		\textbf{ CMD 0x60}: \\ spørg Jacob ??
+		\textbf{ CMD 0x60}: Set Target Position\\ Raspberry Pi writes four bytes that contains the target position. 
 	\end{item}
 	
 	\begin{item}
-		\textbf{CMD 0x70}:  cmd precision stop\\ Sets the position and target variables to zero.
+		\textbf{CMD 0x70}:  Precision Stop\\ Sets the position and target variables to zero.
 	\end{item}
 
 	\begin{item}
-		\textbf{CMD 0x80 }: cmd get dist\\ Raspberry pi reads three bytes that contains the distance from the three IR distance sensors.
+		\textbf{CMD 0x80}: Get Dist\\ Raspberry Pi reads three bytes that contains the distance from the three IR distance sensors.
 	\end{item}
-	
-	\begin{item}
-		\textbf{CMD 0x90 }: cmd enable dist\\ Enables the three ADC channels in the MCU that converts the IR distance sensors.
-	\end{item}			
 
 	\begin{item}
-		\textbf{ CMD 0xA0 - IS\_STABLE}: \\ Returns a single byte, one if the position is stable, zero if the position is not stable zet.
+		\textbf{CMD 0xA0}: Is Stable. \\ Returns if the position is the same as the target position.
 	\end{item}		
 
 \end{itemize}
