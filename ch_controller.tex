@@ -94,7 +94,7 @@ In chapter \ref{ch:simu}, we will look more into the actual parameters chosen fo
 %
 \section{Implementation of discrete controller}
 
-All controllers in the system are implemented in C using the reference implementation provided by Atmel, in their Application Note on Discrete PID controllers, \citep{avr221}, which again is based on theory by \citep{aastrom1995}.  
+All controllers in the system are implemented in C using the reference implementation provided by Atmel, in their Application Note on Discrete PID controllers, \citep{avr221}, which again is based on theory by \citep{aastrom1995}. Another implementation is suggested in \citep{friesel_note9}, which is sligthy more complicated due to an additional time constant.
 
 The argument `pid\_data\_t` is an abstract data type, with the fields needed by each calculation. It contains the P, I, D factors, the sum of error (for I-term), the last process value (for D-term), plus some other fields. 
 

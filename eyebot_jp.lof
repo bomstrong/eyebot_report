@@ -1,41 +1,41 @@
 \select@language {english}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Block diagram of the subsystems\relax }}{2}{figure.caption.3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Block diagram of the subsystems\relax }}{2}{figure.caption.7}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Raw images captured by the camera\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Raw images captured by the camera\relax }}{6}{figure.caption.8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Straight line}}}{6}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Intersection}}}{6}{subfigure.1.2}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Raw image with slices marked\relax }}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Histogram without filtered\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Histogram filtered with 16-point average filter\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Histogram zoomed in before the `floor` hill\relax }}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The images after being processed\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Raw image with slices marked\relax }}{7}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Histogram without filtered\relax }}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Histogram filtered with 16-point average filter\relax }}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Histogram zoomed in before the `floor` hill\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The images after being processed\relax }}{9}{figure.caption.14}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Straight line}}}{9}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Intersection}}}{9}{subfigure.6.2}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The images with two center of masses calculated\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The images with two center of masses calculated\relax }}{10}{figure.caption.15}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Straight line}}}{10}{subfigure.7.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Intersection}}}{10}{subfigure.7.2}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Step respons for DC-motor\relax }}{12}{figure.caption.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PWM with input at 25$\%$}}}{14}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PWM with input at 50$\%$}}}{14}{subfigure.2.2}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces H-bridge\relax }}{15}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces H-bridge in the two states\relax }}{15}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces H-bridge truth table\relax }}{15}{figure.caption.16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Encoder illustration from atmel Application Note AVR 1600 aboute Quadrature Decoder\relax }}{16}{figure.caption.17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Encoder output from Motor to MCU\relax }}{17}{figure.caption.18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Unity feedback loop\relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Step respons for DC-motor\relax }}{12}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PWM with input at 25$\%$}}}{13}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PWM with input at 50$\%$}}}{13}{subfigure.2.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces H-bridge\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces H-bridge in the two states\relax }}{14}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces H-bridge truth table\relax }}{14}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Encoder illustration (from Atmel's Application Note on Quadrature Decoders, \citep {avr1600})\relax }}{15}{figure.caption.21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Encoder output from Motor to MCU\relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Unity feedback loop\relax }}{16}{figure.caption.23}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distance IR sensor\relax }}{19}{figure.caption.20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Distance IR sensor\relax }}{20}{figure.caption.21}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Stick to the wall\relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distance IR sensor\relax }}{17}{figure.caption.24}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distance IR sensor\relax }}{18}{figure.caption.25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Stick to the wall\relax }}{19}{figure.caption.26}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Address byte used by the I$^2$C protocol\relax }}{23}{figure.caption.23}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Block diagram of the I$^2$C bus\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Address byte used by the I$^2$C protocol\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Block diagram of the I$^2$C bus\relax }}{22}{figure.caption.28}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Block diagram of velocity control\relax }}{27}{figure.caption.26}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Block diagram of position control\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces PID Controller in feedback a feedback loop (from cs.brown.edu)\relax }}{29}{figure.caption.32}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Block diagram of velocity control\relax }}{23}{figure.caption.30}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Block diagram of position control\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces PID Controller in feedback a feedback loop (from cs.brown.edu)\relax }}{25}{figure.caption.36}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

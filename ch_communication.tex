@@ -20,7 +20,8 @@ The I$^2$C (Inter-Integrated Circuit) protocol is a very used communication meth
 	\caption{Block diagram of the I$^2$C bus}
 	\label{fig:communication_I2C_diagram}
 \end{figure}
-\newpage
+
+
 \section{Implementation}
 In this project the Raspberry Pi is the I$^2$C master because it is within this devise all the processing in produced. The Raspberry Pi is running the I$^2$C bus at 100 kHz and is equipped with two 1.8 k$\Omega$ pull up resistors.\\ To make the communication procedure easier, a command system has been implemented in all the devices attached to the I$^2$C bus (not the IO expander because this device it a preprogrammed I$^2$C device). The system makes the first data byte in the data stream to a command(CMD) and this command then calls different functions that deals with the rest of the data in the stream.   
 

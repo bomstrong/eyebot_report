@@ -220,6 +220,14 @@ Using the equation for center of mass, two error points are calculated for each 
 	\label{fig:camera_7}
 \end{figure}
 
+Once the points has been calculated, the horizontal error signal (sideways error from the line) is calculated by subtracting the x-position of each point, from the x-coordinate at the center of the image. Equation \ref{eq:camera_4} gives a mathematical expression of the error signal. Hence, when the robot is to the left of the line (line is in the right side of the image), the error negative, thus when the robot is to the right of the line (line is in the left side of the image), the error is positive.
+
+\begin{equation}\label{eq:camera_4}
+	e = x_{center} - x_{point}
+\end{equation}
+
+
+
 
 
 %\section{Performance Considerations and Possible Improvements}

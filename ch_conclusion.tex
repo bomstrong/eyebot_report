@@ -3,14 +3,17 @@
 
 In the previous sections we explored the different blocks and technologies used in this project. We looked at how to capture and process images to detect a line, and how to calculate an error signal from the segmented image. By using a camera, we archived a much more precise and accurate error signal, compared to a regular array of photo sensors. By that we archived a more smoother line following, with performance comparable to real world usage in autonomous vehicles.
 
-Motors
+%Motors
+We have gained a huge insight in the control of DC-motors, both electronics and control theory using feedback loops from encoders. The work has also showed that motors linear on the paper are highly non-linear in the real world.
 
-Wall
+%Controllers
+By implementing discrete PID controllers in the Raspberry Pi, we archived an almost perfect line following, that in all cases fully satisfies the requirement specification. All controllers were tuned by a mixture of Ziegler-Nichols, and the principles mentioned in the section about manual tuning. 
 
-Controllers
+%Track
+Completing the track was a question of implementing a state machine, and has actually been one of the easiest when all the individual features of the robot were available, i.e. following the line, turning to a given position, breaking, following the wall and so on.
 
-Track
+%Project
+In this project we have gained a lot of new useful knowledge in various areas, especially the area of professional PCB production, image processing and control theory. This has not been cost-free, and a huge amount of hours has spent in labs and in front of the screen.
 
-Project
-
-Further work / improvements
+%Further work / improvements
+Future work should focus on improving the segmentation between the line and the floor, and possibly implement some more advanced image processing based on edge detection and BLOB feature classification. A more sophisticated detection of the different features on the track, could be implemented to improve and possibly simplify the state machine. 

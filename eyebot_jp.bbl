@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,13 +12,29 @@ K.~J. Astrom and T.~Hagglund.
 
 \bibitem[Atmel(2006)]{avr221}
 Atmel.
-\newblock {AVR}221: {D}iscrete {PID} {C}ontroller.
+\newblock {AVR221: Discrete PID Controller}.
 \newblock \emph{Atmel Application Note}, 2006.
+
+\bibitem[Atmel(2008)]{avr1600}
+Atmel.
+\newblock {AVR1600: Using the XMEGA Quadrature Decoder}.
+\newblock \emph{Atmel Application Note}, 2008.
+
+\bibitem[Atmel(2013)]{asf}
+Atmel.
+\newblock {Atmel Software Framework - Reference}.
+\newblock \emph{Atmel Application Note}, 2013.
+\newblock URL \url{www.atmel.com/tools/avrsoftwareframework.aspx}.
 
 \bibitem[Copeland(2008)]{copeland2008}
 Brian~R. Copeland.
 \newblock {The Design of PID Controllers using Ziegler Nichols Tuning}.
 \newblock \emph{UWI}, 2008.
+
+\bibitem[Friesel(2010)]{friesel_note9}
+Anna Friesel.
+\newblock Note 9 - {D}iscrete {PID}.
+\newblock \emph{IHK}, 2010.
 
 \bibitem[Moeslund(2009)]{moeslund2009}
 Thomas~B. Moeslund.
