@@ -5047,7 +5047,7 @@ package type SS</description>
 <wire x1="76.2" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="N$16" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="A" pin="GP0.4"/>

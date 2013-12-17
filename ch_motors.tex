@@ -15,7 +15,7 @@
 The DC-motor is an essential part of the robot. The motors used in this project are the Faulhaber 2233012S which is a 12 volt armature motor.  To succeed the tasks given in the assignment is it very important to gain control over the motor by understanding the datasheet that describes the motor. The motors dose not only supply the robot with driving force but is also the steering part of the robot.
 
 \subsection{Gears}
-To give the robot more torque a gear system has been implemented in the motors. The cost of high torque through a gearsystem is a reduction in rotational speed. The gearing factor that is used is $\frac{1}{17.2}$ which means that the output shaft only turns one revolution every times the motor itself have turned 17.2 revolutions. The gear system do have some disadvantages by giving the motor nonlinearity like backlash and deadlocks. 
+To give the robot more torque a gear system has been implemented in the motors. The cost of high torque through a gear-system is a reduction in rotational speed. The gearing factor that is used is $\frac{1}{17.2}$ which means that the output shaft only turns one revolution every times the motor itself have turned 17.2 revolutions. The gear system do have some disadvantages by giving the motor nonlinearity like backlash and deadlocks. 
 
 \subsection{Transferfunction for DC-motor}
 In assignment 1 from the control theory course we calculated a transfer function for at DC-motor. By using this knowledge and theory we are able to calculate a transfer function for the DC-motor used in this project.
@@ -174,6 +174,6 @@ The MCU have three different stats with three different controllers so that it c
 
 \end{itemize}
 
-The selection of which current stat the MCU should be in is determiant by the raspberry pi and is set throgh the I$^2$C bus.
-
+The selection of which current stat the MCU should be in is determinant by the raspberry pi and is set through the I$^2$C bus.
+The different controllers from the three states can be found in the control system chapter.    
 

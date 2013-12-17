@@ -4665,8 +4665,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="-TO-220"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="_"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="_" value="0.1u"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.33u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="2N2222*" device=""/>
 <part name="Q2" library="transistor-npn" deviceset="2N2222*" device=""/>
@@ -4686,14 +4686,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="K4" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" deviceset="62000211622" device=""/>
 <part name="K5" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" deviceset="62000211622" device=""/>
 <part name="IC2" library="dan-vreg" deviceset="LDO1117" device="-SOT223"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1206"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="1206"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="4.7u"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="4.7u"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="K6" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" deviceset="62000211622" device=""/>
 <part name="K7" library="Wuerth_Elektronik_eiCan_05_Box_Header_IDC_Connectors_1_2" deviceset="61201021621" device=""/>
 <part name="Q3" library="transistor-npn" deviceset="2N2222*" device=""/>
 <part name="SG1" library="buzzer" deviceset="F/CM12P" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="0309/10"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="0309/10" value="4k"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="microchip2" deviceset="MCP23016" device="SO"/>
 <part name="R16" library="resistor" deviceset="R-US_" device="0309/10"/>

@@ -4741,6 +4741,16 @@ Copyright: Würth Elektronik</description>
 <wire x1="101.6" y1="218.44" x2="101.6" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="A1"/>
+<wire x1="175.26" y1="170.18" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
+<label x="193.04" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="A2"/>
+<wire x1="175.26" y1="172.72" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
+<label x="185.42" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -4774,11 +4784,6 @@ Copyright: Würth Elektronik</description>
 <wire x1="193.04" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="185.42" y="106.68" size="1.778" layer="95"/>
 <junction x="193.04" y="99.06"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="VDD"/>
-<wire x1="134.62" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
-<label x="124.46" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="K7" gate="G$1" pin="10"/>
@@ -4967,6 +4972,16 @@ Copyright: Würth Elektronik</description>
 <wire x1="233.68" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="129.54" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="233.68" y="129.54"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="A0"/>
+<wire x1="175.26" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<label x="198.12" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VDD"/>
+<wire x1="134.62" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
+<label x="124.46" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

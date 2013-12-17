@@ -1871,8 +1871,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC1" library="SparkFun-PowerIC" package="TO-220-ALT" value="" x="74.93" y="58.42"/>
-<element name="C1" library="SparkFun-Capacitors" package="AXIAL-5MM" value="" x="85.09" y="62.23" rot="R90"/>
-<element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="" x="67.31" y="59.69" rot="R90"/>
+<element name="C1" library="SparkFun-Capacitors" package="AXIAL-5MM" value="0.1u" x="85.09" y="62.23" rot="R90"/>
+<element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.33u" x="67.31" y="59.69" rot="R90"/>
 <element name="Q1" library="transistor-npn" package="TO18" value="2N2222" x="13.97" y="34.29"/>
 <element name="Q2" library="transistor-npn" package="TO18" value="2N2222" x="13.97" y="25.4"/>
 <element name="R1" library="resistor" package="0309/10" value="" x="26.67" y="17.78" rot="R180"/>
@@ -1887,8 +1887,8 @@ design rules under a new name.</description>
 <element name="K4" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" package="62000211622" value="62000211622" x="96.52" y="59.69" rot="R270"/>
 <element name="K5" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" package="62000211622" value="62000211622" x="96.52" y="41.91" rot="R270"/>
 <element name="IC2" library="dan-vreg" package="SOT223-3L" value="" x="59.69" y="72.39"/>
-<element name="C3" library="SparkFun-Capacitors" package="1206" value="" x="57.15" y="66.04" rot="R180"/>
-<element name="C4" library="SparkFun-Capacitors" package="1206" value="" x="62.23" y="64.77" rot="R270"/>
+<element name="C3" library="SparkFun-Capacitors" package="1206" value="4.7u" x="57.15" y="66.04" rot="R180"/>
+<element name="C4" library="SparkFun-Capacitors" package="1206" value="4.7u" x="62.23" y="64.77" rot="R270"/>
 <element name="K6" library="Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors" package="62000211622" value="62000211622" x="22.86" y="5.08"/>
 <element name="K7" library="Wuerth_Elektronik_eiCan_05_Box_Header_IDC_Connectors_1_2" package="61201021621" value="61201021621" x="35.56" y="72.39"/>
 <element name="Q3" library="transistor-npn" package="TO18" value="2N2222" x="13.97" y="15.24"/>
@@ -1898,16 +1898,16 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="96.52" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="96.52" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R15" library="resistor" package="0309/10" value="" x="13.97" y="44.45"/>
+<element name="R15" library="resistor" package="0309/10" value="4k" x="13.97" y="44.45"/>
 <element name="IC3" library="microchip2" package="SO-28W" value="MCP23016SO" x="31.75" y="36.83" rot="R270"/>
 <element name="R16" library="resistor" package="0309/10" value="" x="20.32" y="55.88" rot="R90"/>
-<element name="R17" library="resistor" package="0309/10" value="" x="15.24" y="55.88" rot="R90"/>
+<element name="R17" library="resistor" package="0309/10" value="" x="15.24" y="55.88" rot="R270"/>
 <element name="R18" library="resistor" package="0309/10" value="" x="30.48" y="55.88" rot="R90"/>
-<element name="R19" library="resistor" package="0309/10" value="" x="25.4" y="55.88" rot="R90"/>
+<element name="R19" library="resistor" package="0309/10" value="" x="25.4" y="55.88" rot="R270"/>
 <element name="R20" library="resistor" package="0309/10" value="" x="35.56" y="55.88" rot="R90"/>
-<element name="R21" library="resistor" package="0309/10" value="" x="40.64" y="55.88" rot="R90"/>
+<element name="R21" library="resistor" package="0309/10" value="" x="40.64" y="55.88" rot="R270"/>
 <element name="R22" library="resistor" package="0309/10" value="" x="45.72" y="55.88" rot="R90"/>
-<element name="R23" library="resistor" package="0309/10" value="" x="50.8" y="55.88" rot="R90"/>
+<element name="R23" library="resistor" package="0309/10" value="" x="50.8" y="55.88" rot="R270"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2314,22 +2314,22 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="K7" pad="2"/>
 <contactref element="R17" pad="1"/>
-<wire x1="15.24" y1="50.8" x2="33.02" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="60.96" x2="33.02" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="K7" pad="4"/>
 <contactref element="R19" pad="1"/>
-<wire x1="25.4" y1="50.8" x2="35.56" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="60.96" x2="35.56" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="K7" pad="6"/>
 <contactref element="R21" pad="1"/>
-<wire x1="40.64" y1="50.8" x2="38.1" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="60.96" x2="38.1" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="K7" pad="8"/>
 <contactref element="R23" pad="1"/>
-<wire x1="50.8" y1="50.8" x2="40.64" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="50.8" y1="60.96" x2="40.64" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="K7" pad="7"/>
@@ -2359,7 +2359,7 @@ design rules under a new name.</description>
 <signal name="LED2">
 <contactref element="IC3" pad="22"/>
 <contactref element="R17" pad="2"/>
-<wire x1="36.703" y1="36.83" x2="15.24" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="36.703" y1="36.83" x2="15.24" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED3">
 <contactref element="IC3" pad="23"/>
@@ -2369,7 +2369,7 @@ design rules under a new name.</description>
 <signal name="LED4">
 <contactref element="IC3" pad="24"/>
 <contactref element="R19" pad="2"/>
-<wire x1="36.703" y1="39.37" x2="25.4" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="36.703" y1="39.37" x2="25.4" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED5">
 <contactref element="IC3" pad="25"/>
@@ -2379,7 +2379,7 @@ design rules under a new name.</description>
 <signal name="LED6">
 <contactref element="IC3" pad="26"/>
 <contactref element="R21" pad="2"/>
-<wire x1="36.703" y1="41.91" x2="40.64" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="36.703" y1="41.91" x2="40.64" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED7">
 <contactref element="IC3" pad="27"/>
@@ -2389,7 +2389,10 @@ design rules under a new name.</description>
 <signal name="LED8">
 <contactref element="IC3" pad="28"/>
 <contactref element="R23" pad="2"/>
-<wire x1="36.703" y1="44.45" x2="50.8" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="36.703" y1="44.45" x2="36.83" y2="44.45" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="44.45" x2="39.37" y2="46.99" width="0.4064" layer="1"/>
+<wire x1="39.37" y1="46.99" x2="50.8" y2="46.99" width="0.4064" layer="1"/>
+<wire x1="50.8" y1="46.99" x2="50.8" y2="50.8" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="BUZZER">
 <contactref element="IC3" pad="2"/>
