@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  16 DEC 2013 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.19)  18 DEC 2013 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,8 +1080,308 @@ Package caption Info: listings package is loaded.
 \sf@top=\skip275
 \sf@bottom=\skip276
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
+Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
 
-Package subfig Warning: The subfigure type is already defined. on input line 29
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks47
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks48
+\pgfkeys@temptoks=\toks49
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks50
+))
+\pgf@x=\dimen277
+\pgf@y=\dimen278
+\pgf@xa=\dimen279
+\pgf@ya=\dimen280
+\pgf@xb=\dimen281
+\pgf@yb=\dimen282
+\pgf@xc=\dimen283
+\pgf@yc=\dimen284
+\w@pgf@writea=\write6
+\r@pgf@reada=\read4
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen285
+\pgfmath@count=\count297
+\pgfmath@box=\box50
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count298
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen286
+\pgf@picmaxx=\dimen287
+\pgf@picminy=\dimen288
+\pgf@picmaxy=\dimen289
+\pgf@pathminx=\dimen290
+\pgf@pathmaxx=\dimen291
+\pgf@pathminy=\dimen292
+\pgf@pathmaxy=\dimen293
+\pgf@xx=\dimen294
+\pgf@xy=\dimen295
+\pgf@yx=\dimen296
+\pgf@yy=\dimen297
+\pgf@zx=\dimen298
+\pgf@zy=\dimen299
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen300
+\pgf@path@lasty=\dimen301
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen302
+\pgf@shorten@start@additional=\dimen303
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count299
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen304
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen305
+\pgf@pt@y=\dimen306
+\pgf@pt@temp=\dimen307
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen308
+\pgf@sys@shading@range@num=\count300
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box54
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box55
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen309
+\pgf@nodesepend=\dimen310
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen311
+\pgffor@skip=\dimen312
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count301
+\pgfplotmarksize=\dimen313
+)
+\tikz@lastx=\dimen314
+\tikz@lasty=\dimen315
+\tikz@lastxsaved=\dimen316
+\tikz@lastysaved=\dimen317
+\tikzleveldistance=\dimen318
+\tikzsiblingdistance=\dimen319
+\tikz@figbox=\box56
+\tikz@tempbox=\box57
+\tikztreelevel=\count302
+\tikznumberofchildren=\count303
+\tikznumberofcurrentchild=\count304
+\tikz@fig@count=\count305
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count306
+\pgfmatrixcurrentcolumn=\count307
+\pgf@matrix@numberofcolumns=\count308
+)
+\tikz@expandcount=\count309
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
+s.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
+\arrowsize=\dimen320
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackg
+rounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
+\pgf@layerbox@background=\box58
+\pgf@layerboxsaved@background=\box59
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
+code.tex
+File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatte
+rns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v2.10 (rcs-revision 1.2)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v2.10 (rcs-revision 1.13)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryposit
+ioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.c
+ode.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+)) (/usr/share/texmf/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2007/07/23 v2.10 (rcs-revision 1.11)
+\pgfcalendarcurrentjulian=\count310
+))
+\gtt@currentline=\count311
+\gtt@lasttitleline=\count312
+\gtt@currgrid=\count313
+\gtt@chartwidth=\count314
+\gtt@lasttitleslot=\count315
+\gtt@elementid=\count316
+\gtt@today@slot=\count317
+\gtt@startjulian=\count318
+\gtt@endjulian=\count319
+\gtt@calendar@slots=\count320
+\gtt@calendar@weeknumber=\count321
+\gtt@calendar@startofweek=\count322
+\gtt@left@slot=\count323
+\gtt@right@slot=\count324
+)
+
+Package subfig Warning: The subfigure type is already defined. on input line 43
 .
 
 
@@ -1109,16 +1409,16 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip277
 \bibsep=\skip278
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count291
+\c@NAT@ctr=\count325
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2013/07/12 v4544 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count292
-\l__xparse_m_args_int=\count293
-\l__xparse_mandatory_args_int=\count294
-\l__xparse_processor_int=\count295
-\l__xparse_v_nesting_int=\count296
+\l__xparse_current_arg_int=\count326
+\l__xparse_m_args_int=\count327
+\l__xparse_mandatory_args_int=\count328
+\l__xparse_processor_int=\count329
+\l__xparse_v_nesting_int=\count330
 )
 Package: siunitx 2013/07/11 v2.5r A comprehensive (SI) units package
 
@@ -1126,47 +1426,47 @@ Package: siunitx 2013/07/11 v2.5r A comprehensive (SI) units package
 Package: l3keys2e 2013/07/12 v4544 LaTeX2e option processing using LaTeX3 keys
 )
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
-\l__siunitx_tmp_box=\box49
-\l__siunitx_tmp_dim=\dimen277
-\l__siunitx_tmp_int=\count297
+\l__siunitx_tmp_box=\box60
+\l__siunitx_tmp_dim=\dimen321
+\l__siunitx_tmp_int=\count331
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
 Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count298
-\l__siunitx_number_uncert_length_int=\count299
-\l__siunitx_round_int=\count300
-\l__siunitx_process_decimal_int=\count301
-\l__siunitx_process_uncertainty_int=\count302
-\l__siunitx_process_fixed_int=\count303
-\l__siunitx_process_integer_min_int=\count304
-\l__siunitx_process_precision_int=\count305
-\l__siunitx_group_min_int=\count306
-\l__siunitx_angle_marker_box=\box50
-\l__siunitx_angle_unit_box=\box51
-\l__siunitx_angle_marker_dim=\dimen278
-\l__siunitx_angle_unit_dim=\dimen279
-\l__siunitx_unit_int=\count307
-\l__siunitx_unit_denominator_int=\count308
-\l__siunitx_unit_numerator_int=\count309
-\l__siunitx_unit_prefix_int=\count310
-\l__siunitx_unit_prefix_base_int=\count311
-\l__siunitx_unit_prefix_gram_int=\count312
-\l__siunitx_number_product_int=\count313
+\l__siunitx_number_mantissa_length_int=\count332
+\l__siunitx_number_uncert_length_int=\count333
+\l__siunitx_round_int=\count334
+\l__siunitx_process_decimal_int=\count335
+\l__siunitx_process_uncertainty_int=\count336
+\l__siunitx_process_fixed_int=\count337
+\l__siunitx_process_integer_min_int=\count338
+\l__siunitx_process_precision_int=\count339
+\l__siunitx_group_min_int=\count340
+\l__siunitx_angle_marker_box=\box61
+\l__siunitx_angle_unit_box=\box62
+\l__siunitx_angle_marker_dim=\dimen322
+\l__siunitx_angle_unit_dim=\dimen323
+\l__siunitx_unit_int=\count341
+\l__siunitx_unit_denominator_int=\count342
+\l__siunitx_unit_numerator_int=\count343
+\l__siunitx_unit_prefix_int=\count344
+\l__siunitx_unit_prefix_base_int=\count345
+\l__siunitx_unit_prefix_gram_int=\count346
+\l__siunitx_number_product_int=\count347
 \c__siunitx_one_fill_skip=\skip279
 \l__siunitx_table_unit_align_skip=\skip280
-\l__siunitx_table_exponent_dim=\dimen280
-\l__siunitx_table_integer_dim=\dimen281
-\l__siunitx_table_mantissa_dim=\dimen282
-\l__siunitx_table_marker_dim=\dimen283
-\l__siunitx_table_result_dim=\dimen284
-\l__siunitx_table_uncert_dim=\dimen285
-\l__siunitx_table_fill_pre_dim=\dimen286
-\l__siunitx_table_fill_post_dim=\dimen287
-\l__siunitx_table_fill_mid_dim=\dimen288
-\l__siunitx_table_pre_box=\box52
-\l__siunitx_table_post_box=\box53
-\l__siunitx_table_mantissa_box=\box54
-\l__siunitx_table_result_box=\box55
+\l__siunitx_table_exponent_dim=\dimen324
+\l__siunitx_table_integer_dim=\dimen325
+\l__siunitx_table_mantissa_dim=\dimen326
+\l__siunitx_table_marker_dim=\dimen327
+\l__siunitx_table_result_dim=\dimen328
+\l__siunitx_table_uncert_dim=\dimen329
+\l__siunitx_table_fill_pre_dim=\dimen330
+\l__siunitx_table_fill_post_dim=\dimen331
+\l__siunitx_table_fill_mid_dim=\dimen332
+\l__siunitx_table_pre_box=\box63
+\l__siunitx_table_post_box=\box64
+\l__siunitx_table_mantissa_box=\box65
+\l__siunitx_table_result_box=\box66
 \l__siunitx_table_number_align_skip=\skip281
 \l__siunitx_table_text_align_skip=\skip282
 .................................................
@@ -1300,21 +1600,23 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 . Defining document command \__siunitx_bookmark_si:w with arg. spec. 'om' on
 . line 7271.
 .................................................
-\g__file_internal_ior=\read4
+\g__file_internal_ior=\read5
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
-.tex)))
-\c@theorem=\count314
-\eyebot_adbc@idxfile=\write6
-\openout6 = `eyebot_adbc.idx'.
+.tex)
+LaTeX Info: Redefining \translate on input line 116.
+))
+\c@theorem=\count348
+\eyebot_adbc@idxfile=\write7
+\openout7 = `eyebot_adbc.idx'.
 
 
 Writing index file eyebot_adbc.idx 
-\@nomenclaturefile=\write7
-\openout7 = `eyebot_adbc.nlo'.
+\@nomenclaturefile=\write8
+\openout8 = `eyebot_adbc.nlo'.
 
 Writing nomenclature file eyebot_adbc.nlo
 \signlength=\skip283
@@ -1367,17 +1669,17 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen289
-\scratchbox=\box56
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen290
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count349
+\scratchdimen=\dimen333
+\scratchbox=\box67
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen334
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks57
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1407,7 +1709,7 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-\AtBeginShipoutBox=\box57
+\AtBeginShipoutBox=\box68
 Package hyperref Info: Link coloring OFF on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1416,7 +1718,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count355
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1425,14 +1727,14 @@ LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
 (./eyebot_adbc.out) (./eyebot_adbc.out)
-\@outlinefile=\write8
-\openout8 = `eyebot_adbc.out'.
+\@outlinefile=\write9
+\openout9 = `eyebot_adbc.out'.
 
-\c@lstlisting=\count322
+\c@lstlisting=\count356
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-
+ ABD: EveryShipout initializing macros
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1441,7 +1743,7 @@ Dictionary: translator-basic-dictionary, Language: English
 fg
 File: siunitx-abbreviations.cfg 2013/07/11 v2.5r siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count323
+\c__siunitx_mathsf_int=\count357
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
@@ -1474,7 +1776,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count324
+\c__siunitx_mathtt_int=\count358
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 9.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -1485,7 +1787,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./titlePage.tex
-<resources/tex_dtu_uk_a1_cmyk.pdf, id=225, 248.93pt x 58.2175pt>
+<resources/tex_dtu_uk_a1_cmyk.pdf, id=212, 248.93pt x 58.2175pt>
 File: resources/tex_dtu_uk_a1_cmyk.pdf Graphic file (type pdf)
 
 <use resources/tex_dtu_uk_a1_cmyk.pdf>
@@ -1498,8 +1800,8 @@ Non-PDF special ignored!
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./resources/tex_dtu_uk_a1_
 cmyk.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 87.
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 116.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 88.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 117.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
@@ -1528,7 +1830,7 @@ No file eyebot_adbc.nls.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 16.
 
-<resources/Blockdiagram.png, id=306, 656.4525pt x 350.30875pt>
+<resources/Blockdiagram.png, id=289, 656.4525pt x 350.30875pt>
 File: resources/Blockdiagram.png Graphic file (type png)
 
 <use resources/Blockdiagram.png>
@@ -1556,15 +1858,19 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.46 
-      [2 <./resources/Blockdiagram.png (PNG copy)>] [3]) (./ch_camera.tex
-[4] <resources/img-straight.png, id=337, 321.2pt x 240.9pt>
+      [2 <./resources/Blockdiagram.png (PNG copy)>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+) (./ch_camera.tex [4] <resources/img-straight.png, id=320, 321.2pt x 240.9pt>
 File: resources/img-straight.png Graphic file (type png)
 
 <use resources/img-straight.png>
 Package pdftex.def Info: resources/img-straight.png used on input line 23.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/img-intersection.png, id=338, 321.2pt x 240.9pt>
+<resources/img-intersection.png, id=321, 321.2pt x 240.9pt>
 File: resources/img-intersection.png Graphic file (type png)
 
 <use resources/img-intersection.png>
@@ -1585,7 +1891,7 @@ Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 [6 <./resources/img-straight.png (PNG copy)> <./resources/img-intersection.png 
 (PNG copy)>]
-<resources/img-line-straight-raw-sliced.png, id=354, 321.2pt x 240.9pt>
+<resources/img-line-straight-raw-sliced.png, id=337, 321.2pt x 240.9pt>
 File: resources/img-line-straight-raw-sliced.png Graphic file (type png)
 
 <use resources/img-line-straight-raw-sliced.png>
@@ -1593,14 +1899,14 @@ Package pdftex.def Info: resources/img-line-straight-raw-sliced.png used on inp
 ut line 79.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/hist-no-filter.png, id=356, 481.8pt x 160.6pt>
+<resources/hist-no-filter.png, id=339, 481.8pt x 160.6pt>
 File: resources/hist-no-filter.png Graphic file (type png)
 
 <use resources/hist-no-filter.png>
 Package pdftex.def Info: resources/hist-no-filter.png used on input line 95.
 (pdftex.def)             Requested size: 340.8013pt x 113.60283pt.
 
-<resources/hist-filter.png, id=360, 481.8pt x 160.6pt>
+<resources/hist-filter.png, id=343, 481.8pt x 160.6pt>
 File: resources/hist-filter.png Graphic file (type png)
 
 <use resources/hist-filter.png>
@@ -1612,7 +1918,7 @@ png (PNG copy)>]
 Package natbib Warning: Citation `myler1993' on page 8 undefined on input line 
 122.
 
-<resources/hist-zoom-valley.png, id=373, 481.8pt x 160.6pt>
+<resources/hist-zoom-valley.png, id=356, 481.8pt x 160.6pt>
 File: resources/hist-zoom-valley.png Graphic file (type png)
 
 <use resources/hist-zoom-valley.png>
@@ -1651,7 +1957,7 @@ Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 
 [8 <./resources/hist-filter.png (PNG copy)>]
-<resources/img-straight-thr.png, id=388, 321.2pt x 240.9pt>
+<resources/img-straight-thr.png, id=371, 321.2pt x 240.9pt>
 File: resources/img-straight-thr.png Graphic file (type png)
 
 <use resources/img-straight-thr.png>
@@ -1659,7 +1965,7 @@ Package pdftex.def Info: resources/img-straight-thr.png used on input line 180.
 
 (pdftex.def)             Requested size: 127.8013pt x 95.85101pt.
 
-<resources/img-intersection-thr.png, id=389, 321.2pt x 240.9pt>
+<resources/img-intersection-thr.png, id=372, 321.2pt x 240.9pt>
 File: resources/img-intersection-thr.png Graphic file (type png)
 
 <use resources/img-intersection-thr.png>
@@ -1672,7 +1978,7 @@ Package natbib Warning: Citation `moeslund2009' on page 9 undefined on input li
 ne 198.
 
 [9 <./resources/hist-zoom-valley.png (PNG copy)>]
-<resources/img-straight-thr-pt.png, id=415, 321.2pt x 240.9pt>
+<resources/img-straight-thr-pt.png, id=398, 321.2pt x 240.9pt>
 File: resources/img-straight-thr-pt.png Graphic file (type png)
 
 <use resources/img-straight-thr-pt.png>
@@ -1680,112 +1986,131 @@ Package pdftex.def Info: resources/img-straight-thr-pt.png used on input line 2
 15.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
 
-<resources/img-intersection-thr-pt.png, id=416, 321.2pt x 240.9pt>
+<resources/img-intersection-thr-pt.png, id=399, 321.2pt x 240.9pt>
 File: resources/img-intersection-thr-pt.png Graphic file (type png)
 
 <use resources/img-intersection-thr-pt.png>
 Package pdftex.def Info: resources/img-intersection-thr-pt.png used on input li
 ne 218.
 (pdftex.def)             Requested size: 170.3974pt x 127.80136pt.
-) (./ch_motors.tex
+
 Overfull \vbox (6.2378pt too high) has occurred while \output is active []
 
 
 [10 <./resources/img-straight-thr.png (PNG copy)> <./resources/img-intersection
 -thr.png (PNG copy)> <./resources/img-straight-thr-pt.png> <./resources/img-int
-ersection-thr-pt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+ersection-thr-pt.png>]) (./ch_motors.tex [11] [12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
-[11
-
-] <resources/motor_transfer_function.png, id=433, 531.9875pt x 427.5975pt>
+[13] <resources/motor_transfer_function.png, id=426, 531.9875pt x 427.5975pt>
 File: resources/motor_transfer_function.png Graphic file (type png)
 
 <use resources/motor_transfer_function.png>
 Package pdftex.def Info: resources/motor_transfer_function.png used on input li
-ne 42.
+ne 37.
 (pdftex.def)             Requested size: 255.6026pt x 205.44673pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[12 <./resources/motor_transfer_function.png>] [13]
-<resources/Scop/PWM_motot_right_PWMin25.png, id=447, 803.0pt x 602.25pt>
+[14 <./resources/motor_transfer_function.png>]
+
+Package natbib Warning: Citation `asf' on page 15 undefined on input line 52.
+
+<resources/Scop/PWM_motot_right_PWMin25.png, id=435, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin25.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin25.png>
 Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin25.png used on inp
-ut line 80.
+ut line 72.
 (pdftex.def)             Requested size: 191.6987pt x 143.77103pt.
 
-<resources/Scop/PWM_motot_right_PWMin50.png, id=448, 803.0pt x 602.25pt>
+<resources/Scop/PWM_motot_right_PWMin50.png, id=436, 803.0pt x 602.25pt>
 File: resources/Scop/PWM_motot_right_PWMin50.png Graphic file (type png)
 
 <use resources/Scop/PWM_motot_right_PWMin50.png>
 Package pdftex.def Info: resources/Scop/PWM_motot_right_PWMin50.png used on inp
-ut line 85.
+ut line 77.
 (pdftex.def)             Requested size: 191.6987pt x 143.77103pt.
- [14 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot
-_right_PWMin50.png>]
-<resources/H-bridge_diagram.png, id=458, 503.8825pt x 286.06876pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<resources/H-bridge_diagram.png, id=437, 503.8825pt x 286.06876pt>
 File: resources/H-bridge_diagram.png Graphic file (type png)
 
 <use resources/H-bridge_diagram.png>
-Package pdftex.def Info: resources/H-bridge_diagram.png used on input line 95.
+Package pdftex.def Info: resources/H-bridge_diagram.png used on input line 86.
 (pdftex.def)             Requested size: 170.3974pt x 96.73828pt.
-
-<resources/h_bridge_2.png, id=459, 946.53625pt x 290.08376pt>
+ [15]
+<resources/h_bridge_2.png, id=444, 946.53625pt x 290.08376pt>
 File: resources/h_bridge_2.png Graphic file (type png)
 
 <use resources/h_bridge_2.png>
-Package pdftex.def Info: resources/h_bridge_2.png used on input line 103.
+Package pdftex.def Info: resources/h_bridge_2.png used on input line 94.
 (pdftex.def)             Requested size: 340.8013pt x 104.44334pt.
 
-<resources/H-bridge_table.png, id=460, 353.32pt x 164.615pt>
+<resources/H-bridge_table.png, id=445, 353.32pt x 164.615pt>
 File: resources/H-bridge_table.png Graphic file (type png)
 
 <use resources/H-bridge_table.png>
-Package pdftex.def Info: resources/H-bridge_table.png used on input line 112.
+Package pdftex.def Info: resources/H-bridge_table.png used on input line 103.
 (pdftex.def)             Requested size: 170.3974pt x 79.39107pt.
- [15 <./resources/H-bridge_diagram.png> <./resources/h_bridge_2.png> <./resourc
-es/H-bridge_table.png>]
-<resources/encoder_atmel.png, id=469, 487.8225pt x 291.0875pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./resources/Scop/PWM_motot_right_PWMin25.png> <./resources/Scop/PWM_motot_
+right_PWMin50.png> <./resources/H-bridge_diagram.png> <./resources/h_bridge_2.p
+ng>] <resources/encoder_atmel.png, id=457, 487.8225pt x 291.0875pt>
 File: resources/encoder_atmel.png Graphic file (type png)
 
 <use resources/encoder_atmel.png>
-Package pdftex.def Info: resources/encoder_atmel.png used on input line 125.
+Package pdftex.def Info: resources/encoder_atmel.png used on input line 115.
 (pdftex.def)             Requested size: 298.1987pt x 177.94064pt.
 
-<resources/Scop/encoder.png, id=470, 803.0pt x 602.25pt>
+
+Package natbib Warning: Citation `avr1600' on page 17 undefined on input line 1
+16.
+
+
+Package natbib Warning: Citation `avr1600' on page 17 undefined on input line 1
+16.
+
+<resources/Scop/encoder.png, id=458, 803.0pt x 602.25pt>
 File: resources/Scop/encoder.png Graphic file (type png)
 
 <use resources/Scop/encoder.png>
-Package pdftex.def Info: resources/Scop/encoder.png used on input line 133.
+Package pdftex.def Info: resources/Scop/encoder.png used on input line 123.
 (pdftex.def)             Requested size: 255.6026pt x 191.70389pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./resources/encoder_atmel.png>]
-<resources/feedbackloop.png, id=476, 406.51875pt x 106.3975pt>
+<resources/feedbackloop.png, id=459, 406.51875pt x 106.3975pt>
 File: resources/feedbackloop.png Graphic file (type png)
 
 <use resources/feedbackloop.png>
-Package pdftex.def Info: resources/feedbackloop.png used on input line 149.
+Package pdftex.def Info: resources/feedbackloop.png used on input line 138.
 (pdftex.def)             Requested size: 340.8013pt x 89.20119pt.
- [17 <./resources/Scop/encoder.png> <./resources/feedbackloop.png>]) (./ch_wall
-_dist.tex [18]
-<resources/irsensor.png, id=488, 401.5pt x 574.145pt>
+ [17 <./resources/H-bridge_table.png> <./resources/encoder_atmel.png>] [18 <./r
+esources/Scop/encoder.png> <./resources/feedbackloop.png>]) (./ch_wall_dist.tex
+ [19] [20
+
+]
+<resources/irsensor.png, id=481, 401.5pt x 574.145pt>
 File: resources/irsensor.png Graphic file (type png)
 
 <use resources/irsensor.png>
 Package pdftex.def Info: resources/irsensor.png used on input line 8.
 (pdftex.def)             Requested size: 63.8974pt x 91.3657pt.
 
-<resources/adcgraf.png, id=489, 1493.58pt x 840.13875pt>
+<resources/adcgraf.png, id=482, 1493.58pt x 840.13875pt>
 File: resources/adcgraf.png Graphic file (type png)
 
 <use resources/adcgraf.png>
@@ -1795,10 +2120,8 @@ Package pdftex.def Info: resources/adcgraf.png used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19
-
- <./resources/irsensor.png>]
-<resources/wall_robot.png, id=496, 423.5825pt x 520.94624pt>
+[21 <./resources/irsensor.png>]
+<resources/wall_robot.png, id=490, 423.5825pt x 520.94624pt>
 File: resources/wall_robot.png Graphic file (type png)
 
 <use resources/wall_robot.png>
@@ -1808,8 +2131,8 @@ Package pdftex.def Info: resources/wall_robot.png used on input line 53.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./ch_communication.tex [20 <./resources/adcgraf.png>] [21 <./resources/wall_
-robot.png>] [22
+) (./ch_communication.tex [22 <./resources/adcgraf.png>] [23 <./resources/wall_
+robot.png>] [24
 
 ]
 
@@ -1824,7 +2147,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-<resources/commnuication_i2c_address.png, id=512, 820.06375pt x 164.615pt>
+<resources/commnuication_i2c_address.png, id=505, 820.06375pt x 164.615pt>
 File: resources/commnuication_i2c_address.png Graphic file (type png)
 
 <use resources/commnuication_i2c_address.png>
@@ -1832,7 +2155,7 @@ Package pdftex.def Info: resources/commnuication_i2c_address.png used on input
 line 11.
 (pdftex.def)             Requested size: 170.3974pt x 34.20343pt.
 
-<resources/communication_i2c_diagram.png, id=513, 969.6225pt x 503.8825pt>
+<resources/communication_i2c_diagram.png, id=506, 969.6225pt x 503.8825pt>
 File: resources/communication_i2c_diagram.png Graphic file (type png)
 
 <use resources/communication_i2c_diagram.png>
@@ -1843,23 +2166,23 @@ line 19.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./resources/commnuication_i2c_address.png>]
+[25 <./resources/commnuication_i2c_address.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 29.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 29.
+(hyperref)                removing `math shift' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 29.
+(hyperref)                removing `superscript' on input line 30.
 
-[24 <./resources/communication_i2c_diagram.png>]) (./ch_controller.tex [25]
-[26
 
-] <resources/speed_blockdiagram.png, id=534, 679.53876pt x 204.765pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+[26 <./resources/communication_i2c_diagram.png>]) (./ch_controller.tex [27]
+[28
+
+] <resources/speed_blockdiagram.png, id=528, 679.53876pt x 204.765pt>
 File: resources/speed_blockdiagram.png Graphic file (type png)
 
 <use resources/speed_blockdiagram.png>
@@ -1867,68 +2190,66 @@ Package pdftex.def Info: resources/speed_blockdiagram.png used on input line 23
 .
 (pdftex.def)             Requested size: 340.8013pt x 102.69156pt.
 
-<resources/position_blockdiagram.png, id=536, 804.00375pt x 164.615pt>
+<resources/position_blockdiagram.png, id=530, 804.00375pt x 164.615pt>
 File: resources/position_blockdiagram.png Graphic file (type png)
 
 <use resources/position_blockdiagram.png>
 Package pdftex.def Info: resources/position_blockdiagram.png used on input line
  34.
 (pdftex.def)             Requested size: 340.8013pt x 69.77582pt.
- [27] [28 <./resources/speed_blockdiagram.png> <./resources/position_blockdiagr
+ [29] [30 <./resources/speed_blockdiagram.png> <./resources/position_blockdiagr
 am.png>]
 
-LaTeX Warning: Reference `fug:control_3' on page 29 undefined on input line 73.
+LaTeX Warning: Reference `fug:control_3' on page 31 undefined on input line 73.
 
 
-<resources/pid.png, id=554, 443.6575pt x 232.87pt>
+<resources/pid.png, id=547, 443.6575pt x 232.87pt>
 File: resources/pid.png Graphic file (type png)
  <use resources/pid.png>
 Package pdftex.def Info: resources/pid.png used on input line 77.
 (pdftex.def)             Requested size: 213.0pt x 111.79764pt.
 
 
-LaTeX Warning: Reference `ch:simu' on page 29 undefined on input line 88.
+LaTeX Warning: Reference `ch:simu' on page 31 undefined on input line 88.
 
 
-Package natbib Warning: Citation `avr221' on page 29 undefined on input line 97
+Package natbib Warning: Citation `avr221' on page 31 undefined on input line 97
 .
 
 
-Package natbib Warning: Citation `aastrom1995' on page 29 undefined on input li
+Package natbib Warning: Citation `aastrom1995' on page 31 undefined on input li
 ne 97.
 
-[29 <./resources/pid.png>]
 
-Package natbib Warning: Citation `zhong2006' on page 30 undefined on input line
+Package natbib Warning: Citation `friesel_note9' on page 31 undefined on input 
+line 97.
+
+[31 <./resources/pid.png>]
+
+Package natbib Warning: Citation `zhong2006' on page 32 undefined on input line
  146.
 
+[32]
 
-Package natbib Warning: Citation `copeland2008' on page 30 undefined on input l
+Package natbib Warning: Citation `copeland2008' on page 33 undefined on input l
 ine 172.
 
-[30]
 
-Package natbib Warning: Citation `copeland2008' on page 31 undefined on input l
+Package natbib Warning: Citation `copeland2008' on page 33 undefined on input l
 ine 174.
 
-) (./ch_track.tex [31] [32
+) (./ch_track.tex [33] [34
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-[33]) (./ch_simu.tex [34]) [35
+[36]) (./ch_simu.tex [37] [38
 
-] [36
+]) [39] [40
 
-] [37] [38] (./appendix01.tex [39
-
-])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-[41] [42]
+] [41] [42] (./appendix01.tex)
 No file eyebot_adbc.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1941,8 +2262,8 @@ runsystem(rm -- eyebot_adbc.oldaux)...disabled (restricted).
 
 Package natbib Warning: There were undefined citations.
 
-\tf@toc=\write9
-\openout9 = `eyebot_adbc.toc'.
+\tf@toc=\write10
+\openout10 = `eyebot_adbc.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
@@ -1950,7 +2271,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `eyebot_adbc.out' has not changed.
-(rerunfilecheck)             Checksum: E95B5991F7DBD04CFC0065E99F24269D;3606.
+(rerunfilecheck)             Checksum: 1F079F0A328213EAB273350E0E0B0CFA;3390.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1964,13 +2285,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 25388 strings out of 493307
- 455380 string characters out of 6139904
- 663520 words of memory out of 5000000
- 28014 multiletter control sequences out of 15000+600000
- 93649 words of font info for 235 fonts, out of 8000000 for 9000
+ 35439 strings out of 493307
+ 665341 string characters out of 6139904
+ 927389 words of memory out of 5000000
+ 37816 multiletter control sequences out of 15000+600000
+ 95891 words of font info for 248 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 67i,17n,96p,953b,1537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,17n,96p,953b,1550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
@@ -1984,10 +2305,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on eyebot_adbc.pdf (46 pages, 790611 bytes).
+Output written on eyebot_adbc.pdf (46 pages, 786457 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 643 compressed objects within 7 object streams
- 204 named destinations out of 1000 (max. 500000)
- 47178 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 628 compressed objects within 7 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 55350 words of extra memory for PDF output out of 61914 (max. 10000000)
 
